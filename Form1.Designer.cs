@@ -54,7 +54,6 @@
 			this.textBox11 = new System.Windows.Forms.TextBox();
 			this.label15 = new System.Windows.Forms.Label();
 			this.button15 = new System.Windows.Forms.Button();
-			this.textBox12 = new System.Windows.Forms.TextBox();
 			this.label12 = new System.Windows.Forms.Label();
 			this.button12 = new System.Windows.Forms.Button();
 			this.textBox9 = new System.Windows.Forms.TextBox();
@@ -99,7 +98,12 @@
 			this.button21 = new System.Windows.Forms.Button();
 			this.textBox17 = new System.Windows.Forms.TextBox();
 			this.tabPage4 = new System.Windows.Forms.TabPage();
-			this.tabPage5 = new System.Windows.Forms.TabPage();
+			this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+			this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+			this.checkBox1 = new System.Windows.Forms.CheckBox();
+			this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+			this.label28 = new System.Windows.Forms.Label();
+			this.button28 = new System.Windows.Forms.Button();
 			this.label22 = new System.Windows.Forms.Label();
 			this.button22 = new System.Windows.Forms.Button();
 			this.textBox20 = new System.Windows.Forms.TextBox();
@@ -115,33 +119,33 @@
 			this.label27 = new System.Windows.Forms.Label();
 			this.button27 = new System.Windows.Forms.Button();
 			this.textBox24 = new System.Windows.Forms.TextBox();
-			this.label28 = new System.Windows.Forms.Label();
-			this.button28 = new System.Windows.Forms.Button();
-			this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-			this.checkBox1 = new System.Windows.Forms.CheckBox();
-			this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-			this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-			this.checkBox2 = new System.Windows.Forms.CheckBox();
-			this.label29 = new System.Windows.Forms.Label();
-			this.button29 = new System.Windows.Forms.Button();
-			this.listBox5 = new System.Windows.Forms.ListBox();
-			this.button30 = new System.Windows.Forms.Button();
-			this.label30 = new System.Windows.Forms.Label();
-			this.listBox6 = new System.Windows.Forms.ListBox();
-			this.button31 = new System.Windows.Forms.Button();
-			this.label31 = new System.Windows.Forms.Label();
-			this.textBox19 = new System.Windows.Forms.TextBox();
-			this.button32 = new System.Windows.Forms.Button();
-			this.label32 = new System.Windows.Forms.Label();
-			this.button33 = new System.Windows.Forms.Button();
-			this.label33 = new System.Windows.Forms.Label();
-			this.textBox22 = new System.Windows.Forms.TextBox();
-			this.textBox23 = new System.Windows.Forms.TextBox();
-			this.button34 = new System.Windows.Forms.Button();
-			this.label34 = new System.Windows.Forms.Label();
+			this.tabPage5 = new System.Windows.Forms.TabPage();
 			this.textBox25 = new System.Windows.Forms.TextBox();
 			this.button35 = new System.Windows.Forms.Button();
 			this.label35 = new System.Windows.Forms.Label();
+			this.textBox23 = new System.Windows.Forms.TextBox();
+			this.button34 = new System.Windows.Forms.Button();
+			this.label34 = new System.Windows.Forms.Label();
+			this.textBox22 = new System.Windows.Forms.TextBox();
+			this.button33 = new System.Windows.Forms.Button();
+			this.label33 = new System.Windows.Forms.Label();
+			this.button32 = new System.Windows.Forms.Button();
+			this.label32 = new System.Windows.Forms.Label();
+			this.textBox19 = new System.Windows.Forms.TextBox();
+			this.listBox6 = new System.Windows.Forms.ListBox();
+			this.button31 = new System.Windows.Forms.Button();
+			this.label31 = new System.Windows.Forms.Label();
+			this.listBox5 = new System.Windows.Forms.ListBox();
+			this.button30 = new System.Windows.Forms.Button();
+			this.label30 = new System.Windows.Forms.Label();
+			this.checkBox2 = new System.Windows.Forms.CheckBox();
+			this.label29 = new System.Windows.Forms.Label();
+			this.button29 = new System.Windows.Forms.Button();
+			this.groupBox1 = new System.Windows.Forms.GroupBox();
+			this.groupBox2 = new System.Windows.Forms.GroupBox();
+			this.groupBox3 = new System.Windows.Forms.GroupBox();
+			this.groupBox4 = new System.Windows.Forms.GroupBox();
+			this.groupBox5 = new System.Windows.Forms.GroupBox();
 			this.MainGroupBox.SuspendLayout();
 			this.tabControl1.SuspendLayout();
 			this.tabPage1.SuspendLayout();
@@ -149,6 +153,11 @@
 			this.tabPage3.SuspendLayout();
 			this.tabPage4.SuspendLayout();
 			this.tabPage5.SuspendLayout();
+			this.groupBox1.SuspendLayout();
+			this.groupBox2.SuspendLayout();
+			this.groupBox3.SuspendLayout();
+			this.groupBox4.SuspendLayout();
+			this.groupBox5.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// MainGroupBox
@@ -162,7 +171,7 @@
 			this.MainGroupBox.Margin = new System.Windows.Forms.Padding(4);
 			this.MainGroupBox.Name = "MainGroupBox";
 			this.MainGroupBox.Padding = new System.Windows.Forms.Padding(4);
-			this.MainGroupBox.Size = new System.Drawing.Size(1004, 465);
+			this.MainGroupBox.Size = new System.Drawing.Size(1004, 491);
 			this.MainGroupBox.TabIndex = 0;
 			this.MainGroupBox.TabStop = false;
 			this.MainGroupBox.Text = "MainGroupBox";
@@ -183,21 +192,7 @@
 			// 
 			// tabPage1
 			// 
-			this.tabPage1.Controls.Add(this.listBox1);
-			this.tabPage1.Controls.Add(this.button5);
-			this.tabPage1.Controls.Add(this.label5);
-			this.tabPage1.Controls.Add(this.label4);
-			this.tabPage1.Controls.Add(this.button4);
-			this.tabPage1.Controls.Add(this.textBox4);
-			this.tabPage1.Controls.Add(this.label3);
-			this.tabPage1.Controls.Add(this.button3);
-			this.tabPage1.Controls.Add(this.textBox3);
-			this.tabPage1.Controls.Add(this.label2);
-			this.tabPage1.Controls.Add(this.button2);
-			this.tabPage1.Controls.Add(this.textBox2);
-			this.tabPage1.Controls.Add(this.label1);
-			this.tabPage1.Controls.Add(this.button1);
-			this.tabPage1.Controls.Add(this.textBox1);
+			this.tabPage1.Controls.Add(this.groupBox1);
 			this.tabPage1.Location = new System.Drawing.Point(4, 25);
 			this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
 			this.tabPage1.Name = "tabPage1";
@@ -211,7 +206,7 @@
 			// 
 			this.listBox1.FormattingEnabled = true;
 			this.listBox1.ItemHeight = 16;
-			this.listBox1.Location = new System.Drawing.Point(368, 153);
+			this.listBox1.Location = new System.Drawing.Point(299, 158);
 			this.listBox1.Margin = new System.Windows.Forms.Padding(4);
 			this.listBox1.Name = "listBox1";
 			this.listBox1.Size = new System.Drawing.Size(96, 20);
@@ -221,7 +216,7 @@
 			// 
 			this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
 			this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button5.Location = new System.Drawing.Point(329, 149);
+			this.button5.Location = new System.Drawing.Point(260, 154);
 			this.button5.Margin = new System.Windows.Forms.Padding(4);
 			this.button5.Name = "button5";
 			this.button5.Size = new System.Drawing.Size(29, 25);
@@ -231,7 +226,7 @@
 			// label5
 			// 
 			this.label5.AutoSize = true;
-			this.label5.Location = new System.Drawing.Point(181, 154);
+			this.label5.Location = new System.Drawing.Point(112, 159);
 			this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(137, 17);
@@ -242,7 +237,7 @@
 			// label4
 			// 
 			this.label4.AutoSize = true;
-			this.label4.Location = new System.Drawing.Point(75, 121);
+			this.label4.Location = new System.Drawing.Point(6, 126);
 			this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(246, 17);
@@ -254,7 +249,7 @@
 			// 
 			this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
 			this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button4.Location = new System.Drawing.Point(329, 117);
+			this.button4.Location = new System.Drawing.Point(260, 122);
 			this.button4.Margin = new System.Windows.Forms.Padding(4);
 			this.button4.Name = "button4";
 			this.button4.Size = new System.Drawing.Size(29, 25);
@@ -263,7 +258,7 @@
 			// 
 			// textBox4
 			// 
-			this.textBox4.Location = new System.Drawing.Point(367, 117);
+			this.textBox4.Location = new System.Drawing.Point(298, 122);
 			this.textBox4.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox4.Name = "textBox4";
 			this.textBox4.Size = new System.Drawing.Size(97, 22);
@@ -272,7 +267,7 @@
 			// label3
 			// 
 			this.label3.AutoSize = true;
-			this.label3.Location = new System.Drawing.Point(132, 90);
+			this.label3.Location = new System.Drawing.Point(63, 95);
 			this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(188, 17);
@@ -284,7 +279,7 @@
 			// 
 			this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
 			this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button3.Location = new System.Drawing.Point(329, 85);
+			this.button3.Location = new System.Drawing.Point(260, 90);
 			this.button3.Margin = new System.Windows.Forms.Padding(4);
 			this.button3.Name = "button3";
 			this.button3.Size = new System.Drawing.Size(29, 25);
@@ -293,7 +288,7 @@
 			// 
 			// textBox3
 			// 
-			this.textBox3.Location = new System.Drawing.Point(367, 85);
+			this.textBox3.Location = new System.Drawing.Point(298, 90);
 			this.textBox3.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox3.Name = "textBox3";
 			this.textBox3.Size = new System.Drawing.Size(97, 22);
@@ -302,7 +297,7 @@
 			// label2
 			// 
 			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(184, 57);
+			this.label2.Location = new System.Drawing.Point(115, 62);
 			this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(134, 17);
@@ -314,7 +309,7 @@
 			// 
 			this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
 			this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button2.Location = new System.Drawing.Point(329, 53);
+			this.button2.Location = new System.Drawing.Point(260, 58);
 			this.button2.Margin = new System.Windows.Forms.Padding(4);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(29, 25);
@@ -323,7 +318,7 @@
 			// 
 			// textBox2
 			// 
-			this.textBox2.Location = new System.Drawing.Point(367, 53);
+			this.textBox2.Location = new System.Drawing.Point(298, 58);
 			this.textBox2.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox2.Name = "textBox2";
 			this.textBox2.Size = new System.Drawing.Size(97, 22);
@@ -332,7 +327,7 @@
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(203, 25);
+			this.label1.Location = new System.Drawing.Point(134, 30);
 			this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(115, 17);
@@ -344,7 +339,7 @@
 			// 
 			this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
 			this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button1.Location = new System.Drawing.Point(329, 21);
+			this.button1.Location = new System.Drawing.Point(260, 26);
 			this.button1.Margin = new System.Windows.Forms.Padding(4);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(29, 25);
@@ -353,7 +348,7 @@
 			// 
 			// textBox1
 			// 
-			this.textBox1.Location = new System.Drawing.Point(367, 21);
+			this.textBox1.Location = new System.Drawing.Point(298, 26);
 			this.textBox1.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(97, 22);
@@ -361,37 +356,7 @@
 			// 
 			// tabPage2
 			// 
-			this.tabPage2.Controls.Add(this.listBox4);
-			this.tabPage2.Controls.Add(this.label14);
-			this.tabPage2.Controls.Add(this.button14);
-			this.tabPage2.Controls.Add(this.textBox11);
-			this.tabPage2.Controls.Add(this.label15);
-			this.tabPage2.Controls.Add(this.button15);
-			this.tabPage2.Controls.Add(this.textBox12);
-			this.tabPage2.Controls.Add(this.label12);
-			this.tabPage2.Controls.Add(this.button12);
-			this.tabPage2.Controls.Add(this.textBox9);
-			this.tabPage2.Controls.Add(this.label13);
-			this.tabPage2.Controls.Add(this.button13);
-			this.tabPage2.Controls.Add(this.textBox10);
-			this.tabPage2.Controls.Add(this.label10);
-			this.tabPage2.Controls.Add(this.button10);
-			this.tabPage2.Controls.Add(this.textBox7);
-			this.tabPage2.Controls.Add(this.label11);
-			this.tabPage2.Controls.Add(this.button11);
-			this.tabPage2.Controls.Add(this.textBox8);
-			this.tabPage2.Controls.Add(this.listBox3);
-			this.tabPage2.Controls.Add(this.button9);
-			this.tabPage2.Controls.Add(this.label9);
-			this.tabPage2.Controls.Add(this.listBox2);
-			this.tabPage2.Controls.Add(this.button6);
-			this.tabPage2.Controls.Add(this.label6);
-			this.tabPage2.Controls.Add(this.label7);
-			this.tabPage2.Controls.Add(this.button7);
-			this.tabPage2.Controls.Add(this.textBox5);
-			this.tabPage2.Controls.Add(this.label8);
-			this.tabPage2.Controls.Add(this.button8);
-			this.tabPage2.Controls.Add(this.textBox6);
+			this.tabPage2.Controls.Add(this.groupBox2);
 			this.tabPage2.Location = new System.Drawing.Point(4, 25);
 			this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
 			this.tabPage2.Name = "tabPage2";
@@ -405,7 +370,7 @@
 			// 
 			this.listBox4.FormattingEnabled = true;
 			this.listBox4.ItemHeight = 16;
-			this.listBox4.Location = new System.Drawing.Point(307, 272);
+			this.listBox4.Location = new System.Drawing.Point(308, 283);
 			this.listBox4.Margin = new System.Windows.Forms.Padding(4);
 			this.listBox4.Name = "listBox4";
 			this.listBox4.Size = new System.Drawing.Size(96, 20);
@@ -414,7 +379,7 @@
 			// label14
 			// 
 			this.label14.AutoSize = true;
-			this.label14.Location = new System.Drawing.Point(21, 305);
+			this.label14.Location = new System.Drawing.Point(22, 316);
 			this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label14.Name = "label14";
 			this.label14.Size = new System.Drawing.Size(238, 17);
@@ -426,7 +391,7 @@
 			// 
 			this.button14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button14.BackgroundImage")));
 			this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button14.Location = new System.Drawing.Point(268, 301);
+			this.button14.Location = new System.Drawing.Point(269, 312);
 			this.button14.Margin = new System.Windows.Forms.Padding(4);
 			this.button14.Name = "button14";
 			this.button14.Size = new System.Drawing.Size(29, 25);
@@ -435,7 +400,7 @@
 			// 
 			// textBox11
 			// 
-			this.textBox11.Location = new System.Drawing.Point(306, 301);
+			this.textBox11.Location = new System.Drawing.Point(307, 312);
 			this.textBox11.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox11.Name = "textBox11";
 			this.textBox11.Size = new System.Drawing.Size(97, 22);
@@ -444,7 +409,7 @@
 			// label15
 			// 
 			this.label15.AutoSize = true;
-			this.label15.Location = new System.Drawing.Point(35, 272);
+			this.label15.Location = new System.Drawing.Point(36, 283);
 			this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label15.Name = "label15";
 			this.label15.Size = new System.Drawing.Size(224, 17);
@@ -456,24 +421,17 @@
 			// 
 			this.button15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button15.BackgroundImage")));
 			this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button15.Location = new System.Drawing.Point(268, 269);
+			this.button15.Location = new System.Drawing.Point(269, 280);
 			this.button15.Margin = new System.Windows.Forms.Padding(4);
 			this.button15.Name = "button15";
 			this.button15.Size = new System.Drawing.Size(29, 25);
 			this.button15.TabIndex = 40;
 			this.button15.UseVisualStyleBackColor = true;
 			// 
-			// textBox12
-			// 
-			this.textBox12.Location = new System.Drawing.Point(0, 0);
-			this.textBox12.Name = "textBox12";
-			this.textBox12.Size = new System.Drawing.Size(100, 22);
-			this.textBox12.TabIndex = 45;
-			// 
 			// label12
 			// 
 			this.label12.AutoSize = true;
-			this.label12.Location = new System.Drawing.Point(57, 243);
+			this.label12.Location = new System.Drawing.Point(58, 254);
 			this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label12.Name = "label12";
 			this.label12.Size = new System.Drawing.Size(202, 17);
@@ -485,7 +443,7 @@
 			// 
 			this.button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button12.BackgroundImage")));
 			this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button12.Location = new System.Drawing.Point(268, 239);
+			this.button12.Location = new System.Drawing.Point(269, 250);
 			this.button12.Margin = new System.Windows.Forms.Padding(4);
 			this.button12.Name = "button12";
 			this.button12.Size = new System.Drawing.Size(29, 25);
@@ -494,7 +452,7 @@
 			// 
 			// textBox9
 			// 
-			this.textBox9.Location = new System.Drawing.Point(306, 239);
+			this.textBox9.Location = new System.Drawing.Point(307, 250);
 			this.textBox9.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox9.Name = "textBox9";
 			this.textBox9.Size = new System.Drawing.Size(97, 22);
@@ -503,7 +461,7 @@
 			// label13
 			// 
 			this.label13.AutoSize = true;
-			this.label13.Location = new System.Drawing.Point(49, 210);
+			this.label13.Location = new System.Drawing.Point(50, 221);
 			this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label13.Name = "label13";
 			this.label13.Size = new System.Drawing.Size(210, 17);
@@ -515,7 +473,7 @@
 			// 
 			this.button13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button13.BackgroundImage")));
 			this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button13.Location = new System.Drawing.Point(268, 207);
+			this.button13.Location = new System.Drawing.Point(269, 218);
 			this.button13.Margin = new System.Windows.Forms.Padding(4);
 			this.button13.Name = "button13";
 			this.button13.Size = new System.Drawing.Size(29, 25);
@@ -524,7 +482,7 @@
 			// 
 			// textBox10
 			// 
-			this.textBox10.Location = new System.Drawing.Point(306, 207);
+			this.textBox10.Location = new System.Drawing.Point(307, 218);
 			this.textBox10.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox10.Name = "textBox10";
 			this.textBox10.Size = new System.Drawing.Size(97, 22);
@@ -533,7 +491,7 @@
 			// label10
 			// 
 			this.label10.AutoSize = true;
-			this.label10.Location = new System.Drawing.Point(73, 180);
+			this.label10.Location = new System.Drawing.Point(74, 191);
 			this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label10.Name = "label10";
 			this.label10.Size = new System.Drawing.Size(191, 17);
@@ -545,7 +503,7 @@
 			// 
 			this.button10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button10.BackgroundImage")));
 			this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button10.Location = new System.Drawing.Point(267, 177);
+			this.button10.Location = new System.Drawing.Point(268, 188);
 			this.button10.Margin = new System.Windows.Forms.Padding(4);
 			this.button10.Name = "button10";
 			this.button10.Size = new System.Drawing.Size(29, 25);
@@ -554,7 +512,7 @@
 			// 
 			// textBox7
 			// 
-			this.textBox7.Location = new System.Drawing.Point(305, 177);
+			this.textBox7.Location = new System.Drawing.Point(306, 188);
 			this.textBox7.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox7.Name = "textBox7";
 			this.textBox7.Size = new System.Drawing.Size(97, 22);
@@ -563,7 +521,7 @@
 			// label11
 			// 
 			this.label11.AutoSize = true;
-			this.label11.Location = new System.Drawing.Point(64, 148);
+			this.label11.Location = new System.Drawing.Point(65, 159);
 			this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label11.Name = "label11";
 			this.label11.Size = new System.Drawing.Size(195, 17);
@@ -575,7 +533,7 @@
 			// 
 			this.button11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button11.BackgroundImage")));
 			this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button11.Location = new System.Drawing.Point(267, 145);
+			this.button11.Location = new System.Drawing.Point(268, 156);
 			this.button11.Margin = new System.Windows.Forms.Padding(4);
 			this.button11.Name = "button11";
 			this.button11.Size = new System.Drawing.Size(29, 25);
@@ -584,7 +542,7 @@
 			// 
 			// textBox8
 			// 
-			this.textBox8.Location = new System.Drawing.Point(305, 145);
+			this.textBox8.Location = new System.Drawing.Point(306, 156);
 			this.textBox8.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox8.Name = "textBox8";
 			this.textBox8.Size = new System.Drawing.Size(97, 22);
@@ -594,7 +552,7 @@
 			// 
 			this.listBox3.FormattingEnabled = true;
 			this.listBox3.ItemHeight = 16;
-			this.listBox3.Location = new System.Drawing.Point(306, 117);
+			this.listBox3.Location = new System.Drawing.Point(307, 128);
 			this.listBox3.Margin = new System.Windows.Forms.Padding(4);
 			this.listBox3.Name = "listBox3";
 			this.listBox3.Size = new System.Drawing.Size(96, 20);
@@ -604,7 +562,7 @@
 			// 
 			this.button9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button9.BackgroundImage")));
 			this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button9.Location = new System.Drawing.Point(267, 113);
+			this.button9.Location = new System.Drawing.Point(268, 124);
 			this.button9.Margin = new System.Windows.Forms.Padding(4);
 			this.button9.Name = "button9";
 			this.button9.Size = new System.Drawing.Size(29, 25);
@@ -614,7 +572,7 @@
 			// label9
 			// 
 			this.label9.AutoSize = true;
-			this.label9.Location = new System.Drawing.Point(172, 117);
+			this.label9.Location = new System.Drawing.Point(173, 128);
 			this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label9.Name = "label9";
 			this.label9.Size = new System.Drawing.Size(87, 17);
@@ -626,7 +584,7 @@
 			// 
 			this.listBox2.FormattingEnabled = true;
 			this.listBox2.ItemHeight = 16;
-			this.listBox2.Location = new System.Drawing.Point(306, 84);
+			this.listBox2.Location = new System.Drawing.Point(307, 95);
 			this.listBox2.Margin = new System.Windows.Forms.Padding(4);
 			this.listBox2.Name = "listBox2";
 			this.listBox2.Size = new System.Drawing.Size(96, 20);
@@ -636,7 +594,7 @@
 			// 
 			this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
 			this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button6.Location = new System.Drawing.Point(267, 80);
+			this.button6.Location = new System.Drawing.Point(268, 91);
 			this.button6.Margin = new System.Windows.Forms.Padding(4);
 			this.button6.Name = "button6";
 			this.button6.Size = new System.Drawing.Size(29, 25);
@@ -646,7 +604,7 @@
 			// label6
 			// 
 			this.label6.AutoSize = true;
-			this.label6.Location = new System.Drawing.Point(142, 84);
+			this.label6.Location = new System.Drawing.Point(143, 95);
 			this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(117, 17);
@@ -657,7 +615,7 @@
 			// label7
 			// 
 			this.label7.AutoSize = true;
-			this.label7.Location = new System.Drawing.Point(73, 51);
+			this.label7.Location = new System.Drawing.Point(74, 62);
 			this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(186, 17);
@@ -669,7 +627,7 @@
 			// 
 			this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
 			this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button7.Location = new System.Drawing.Point(267, 48);
+			this.button7.Location = new System.Drawing.Point(268, 59);
 			this.button7.Margin = new System.Windows.Forms.Padding(4);
 			this.button7.Name = "button7";
 			this.button7.Size = new System.Drawing.Size(29, 25);
@@ -678,7 +636,7 @@
 			// 
 			// textBox5
 			// 
-			this.textBox5.Location = new System.Drawing.Point(305, 48);
+			this.textBox5.Location = new System.Drawing.Point(306, 59);
 			this.textBox5.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox5.Name = "textBox5";
 			this.textBox5.Size = new System.Drawing.Size(97, 22);
@@ -687,7 +645,7 @@
 			// label8
 			// 
 			this.label8.AutoSize = true;
-			this.label8.Location = new System.Drawing.Point(32, 19);
+			this.label8.Location = new System.Drawing.Point(33, 30);
 			this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label8.Name = "label8";
 			this.label8.Size = new System.Drawing.Size(227, 17);
@@ -699,7 +657,7 @@
 			// 
 			this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
 			this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button8.Location = new System.Drawing.Point(267, 16);
+			this.button8.Location = new System.Drawing.Point(268, 27);
 			this.button8.Margin = new System.Windows.Forms.Padding(4);
 			this.button8.Name = "button8";
 			this.button8.Size = new System.Drawing.Size(29, 25);
@@ -708,7 +666,7 @@
 			// 
 			// textBox6
 			// 
-			this.textBox6.Location = new System.Drawing.Point(305, 16);
+			this.textBox6.Location = new System.Drawing.Point(306, 27);
 			this.textBox6.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox6.Name = "textBox6";
 			this.textBox6.Size = new System.Drawing.Size(97, 22);
@@ -716,24 +674,7 @@
 			// 
 			// tabPage3
 			// 
-			this.tabPage3.Controls.Add(this.textBox18);
-			this.tabPage3.Controls.Add(this.label16);
-			this.tabPage3.Controls.Add(this.button16);
-			this.tabPage3.Controls.Add(this.textBox13);
-			this.tabPage3.Controls.Add(this.label17);
-			this.tabPage3.Controls.Add(this.button17);
-			this.tabPage3.Controls.Add(this.label18);
-			this.tabPage3.Controls.Add(this.button18);
-			this.tabPage3.Controls.Add(this.textBox14);
-			this.tabPage3.Controls.Add(this.label19);
-			this.tabPage3.Controls.Add(this.button19);
-			this.tabPage3.Controls.Add(this.textBox15);
-			this.tabPage3.Controls.Add(this.label20);
-			this.tabPage3.Controls.Add(this.button20);
-			this.tabPage3.Controls.Add(this.textBox16);
-			this.tabPage3.Controls.Add(this.label21);
-			this.tabPage3.Controls.Add(this.button21);
-			this.tabPage3.Controls.Add(this.textBox17);
+			this.tabPage3.Controls.Add(this.groupBox3);
 			this.tabPage3.Location = new System.Drawing.Point(4, 25);
 			this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
 			this.tabPage3.Name = "tabPage3";
@@ -745,7 +686,7 @@
 			// 
 			// textBox18
 			// 
-			this.textBox18.Location = new System.Drawing.Point(383, 158);
+			this.textBox18.Location = new System.Drawing.Point(363, 155);
 			this.textBox18.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox18.Name = "textBox18";
 			this.textBox18.Size = new System.Drawing.Size(97, 22);
@@ -754,7 +695,7 @@
 			// label16
 			// 
 			this.label16.AutoSize = true;
-			this.label16.Location = new System.Drawing.Point(174, 190);
+			this.label16.Location = new System.Drawing.Point(154, 187);
 			this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label16.Name = "label16";
 			this.label16.Size = new System.Drawing.Size(163, 17);
@@ -766,7 +707,7 @@
 			// 
 			this.button16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button16.BackgroundImage")));
 			this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button16.Location = new System.Drawing.Point(345, 187);
+			this.button16.Location = new System.Drawing.Point(325, 184);
 			this.button16.Margin = new System.Windows.Forms.Padding(4);
 			this.button16.Name = "button16";
 			this.button16.Size = new System.Drawing.Size(29, 25);
@@ -775,7 +716,7 @@
 			// 
 			// textBox13
 			// 
-			this.textBox13.Location = new System.Drawing.Point(383, 187);
+			this.textBox13.Location = new System.Drawing.Point(363, 184);
 			this.textBox13.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox13.Name = "textBox13";
 			this.textBox13.Size = new System.Drawing.Size(97, 22);
@@ -784,7 +725,7 @@
 			// label17
 			// 
 			this.label17.AutoSize = true;
-			this.label17.Location = new System.Drawing.Point(143, 161);
+			this.label17.Location = new System.Drawing.Point(123, 158);
 			this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label17.Name = "label17";
 			this.label17.Size = new System.Drawing.Size(194, 17);
@@ -796,7 +737,7 @@
 			// 
 			this.button17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button17.BackgroundImage")));
 			this.button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button17.Location = new System.Drawing.Point(345, 155);
+			this.button17.Location = new System.Drawing.Point(325, 152);
 			this.button17.Margin = new System.Windows.Forms.Padding(4);
 			this.button17.Name = "button17";
 			this.button17.Size = new System.Drawing.Size(29, 25);
@@ -806,7 +747,7 @@
 			// label18
 			// 
 			this.label18.AutoSize = true;
-			this.label18.Location = new System.Drawing.Point(134, 129);
+			this.label18.Location = new System.Drawing.Point(114, 126);
 			this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label18.Name = "label18";
 			this.label18.Size = new System.Drawing.Size(205, 17);
@@ -818,7 +759,7 @@
 			// 
 			this.button18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button18.BackgroundImage")));
 			this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button18.Location = new System.Drawing.Point(345, 125);
+			this.button18.Location = new System.Drawing.Point(325, 122);
 			this.button18.Margin = new System.Windows.Forms.Padding(4);
 			this.button18.Name = "button18";
 			this.button18.Size = new System.Drawing.Size(29, 25);
@@ -827,7 +768,7 @@
 			// 
 			// textBox14
 			// 
-			this.textBox14.Location = new System.Drawing.Point(383, 125);
+			this.textBox14.Location = new System.Drawing.Point(363, 122);
 			this.textBox14.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox14.Name = "textBox14";
 			this.textBox14.Size = new System.Drawing.Size(97, 22);
@@ -836,7 +777,7 @@
 			// label19
 			// 
 			this.label19.AutoSize = true;
-			this.label19.Location = new System.Drawing.Point(162, 96);
+			this.label19.Location = new System.Drawing.Point(142, 93);
 			this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label19.Name = "label19";
 			this.label19.Size = new System.Drawing.Size(175, 17);
@@ -848,7 +789,7 @@
 			// 
 			this.button19.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button19.BackgroundImage")));
 			this.button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button19.Location = new System.Drawing.Point(345, 93);
+			this.button19.Location = new System.Drawing.Point(325, 90);
 			this.button19.Margin = new System.Windows.Forms.Padding(4);
 			this.button19.Name = "button19";
 			this.button19.Size = new System.Drawing.Size(29, 25);
@@ -857,7 +798,7 @@
 			// 
 			// textBox15
 			// 
-			this.textBox15.Location = new System.Drawing.Point(383, 93);
+			this.textBox15.Location = new System.Drawing.Point(363, 90);
 			this.textBox15.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox15.Name = "textBox15";
 			this.textBox15.Size = new System.Drawing.Size(97, 22);
@@ -866,7 +807,7 @@
 			// label20
 			// 
 			this.label20.AutoSize = true;
-			this.label20.Location = new System.Drawing.Point(150, 66);
+			this.label20.Location = new System.Drawing.Point(130, 63);
 			this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label20.Name = "label20";
 			this.label20.Size = new System.Drawing.Size(193, 17);
@@ -878,7 +819,7 @@
 			// 
 			this.button20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button20.BackgroundImage")));
 			this.button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button20.Location = new System.Drawing.Point(344, 63);
+			this.button20.Location = new System.Drawing.Point(324, 60);
 			this.button20.Margin = new System.Windows.Forms.Padding(4);
 			this.button20.Name = "button20";
 			this.button20.Size = new System.Drawing.Size(29, 25);
@@ -887,7 +828,7 @@
 			// 
 			// textBox16
 			// 
-			this.textBox16.Location = new System.Drawing.Point(382, 63);
+			this.textBox16.Location = new System.Drawing.Point(362, 60);
 			this.textBox16.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox16.Name = "textBox16";
 			this.textBox16.Size = new System.Drawing.Size(97, 22);
@@ -896,7 +837,7 @@
 			// label21
 			// 
 			this.label21.AutoSize = true;
-			this.label21.Location = new System.Drawing.Point(27, 31);
+			this.label21.Location = new System.Drawing.Point(7, 28);
 			this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label21.Name = "label21";
 			this.label21.Size = new System.Drawing.Size(314, 17);
@@ -908,7 +849,7 @@
 			// 
 			this.button21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button21.BackgroundImage")));
 			this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button21.Location = new System.Drawing.Point(344, 31);
+			this.button21.Location = new System.Drawing.Point(324, 28);
 			this.button21.Margin = new System.Windows.Forms.Padding(4);
 			this.button21.Name = "button21";
 			this.button21.Size = new System.Drawing.Size(29, 25);
@@ -917,7 +858,7 @@
 			// 
 			// textBox17
 			// 
-			this.textBox17.Location = new System.Drawing.Point(382, 31);
+			this.textBox17.Location = new System.Drawing.Point(362, 28);
 			this.textBox17.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox17.Name = "textBox17";
 			this.textBox17.Size = new System.Drawing.Size(97, 22);
@@ -925,27 +866,7 @@
 			// 
 			// tabPage4
 			// 
-			this.tabPage4.Controls.Add(this.dateTimePicker3);
-			this.tabPage4.Controls.Add(this.dateTimePicker2);
-			this.tabPage4.Controls.Add(this.checkBox1);
-			this.tabPage4.Controls.Add(this.dateTimePicker1);
-			this.tabPage4.Controls.Add(this.label28);
-			this.tabPage4.Controls.Add(this.button28);
-			this.tabPage4.Controls.Add(this.label22);
-			this.tabPage4.Controls.Add(this.button22);
-			this.tabPage4.Controls.Add(this.textBox20);
-			this.tabPage4.Controls.Add(this.label23);
-			this.tabPage4.Controls.Add(this.button23);
-			this.tabPage4.Controls.Add(this.label24);
-			this.tabPage4.Controls.Add(this.button24);
-			this.tabPage4.Controls.Add(this.textBox21);
-			this.tabPage4.Controls.Add(this.label25);
-			this.tabPage4.Controls.Add(this.button25);
-			this.tabPage4.Controls.Add(this.label26);
-			this.tabPage4.Controls.Add(this.button26);
-			this.tabPage4.Controls.Add(this.label27);
-			this.tabPage4.Controls.Add(this.button27);
-			this.tabPage4.Controls.Add(this.textBox24);
+			this.tabPage4.Controls.Add(this.groupBox4);
 			this.tabPage4.Location = new System.Drawing.Point(4, 25);
 			this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
 			this.tabPage4.Name = "tabPage4";
@@ -955,198 +876,41 @@
 			this.tabPage4.Text = "Governance:";
 			this.tabPage4.UseVisualStyleBackColor = true;
 			// 
-			// tabPage5
+			// dateTimePicker3
 			// 
-			this.tabPage5.Controls.Add(this.textBox25);
-			this.tabPage5.Controls.Add(this.button35);
-			this.tabPage5.Controls.Add(this.label35);
-			this.tabPage5.Controls.Add(this.textBox23);
-			this.tabPage5.Controls.Add(this.button34);
-			this.tabPage5.Controls.Add(this.label34);
-			this.tabPage5.Controls.Add(this.textBox22);
-			this.tabPage5.Controls.Add(this.button33);
-			this.tabPage5.Controls.Add(this.label33);
-			this.tabPage5.Controls.Add(this.button32);
-			this.tabPage5.Controls.Add(this.label32);
-			this.tabPage5.Controls.Add(this.textBox19);
-			this.tabPage5.Controls.Add(this.listBox6);
-			this.tabPage5.Controls.Add(this.button31);
-			this.tabPage5.Controls.Add(this.label31);
-			this.tabPage5.Controls.Add(this.listBox5);
-			this.tabPage5.Controls.Add(this.button30);
-			this.tabPage5.Controls.Add(this.label30);
-			this.tabPage5.Controls.Add(this.checkBox2);
-			this.tabPage5.Controls.Add(this.label29);
-			this.tabPage5.Controls.Add(this.button29);
-			this.tabPage5.Location = new System.Drawing.Point(4, 25);
-			this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
-			this.tabPage5.Name = "tabPage5";
-			this.tabPage5.Padding = new System.Windows.Forms.Padding(4);
-			this.tabPage5.Size = new System.Drawing.Size(979, 404);
-			this.tabPage5.TabIndex = 4;
-			this.tabPage5.Text = "Info:";
-			this.tabPage5.UseVisualStyleBackColor = true;
+			this.dateTimePicker3.Location = new System.Drawing.Point(351, 210);
+			this.dateTimePicker3.Name = "dateTimePicker3";
+			this.dateTimePicker3.Size = new System.Drawing.Size(159, 22);
+			this.dateTimePicker3.TabIndex = 89;
 			// 
-			// label22
+			// dateTimePicker2
 			// 
-			this.label22.AutoSize = true;
-			this.label22.Location = new System.Drawing.Point(160, 200);
-			this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label22.Name = "label22";
-			this.label22.Size = new System.Drawing.Size(189, 17);
-			this.label22.TabIndex = 79;
-			this.label22.Text = "Accessibility Compliant Label";
-			this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.dateTimePicker2.Location = new System.Drawing.Point(351, 150);
+			this.dateTimePicker2.Name = "dateTimePicker2";
+			this.dateTimePicker2.Size = new System.Drawing.Size(159, 22);
+			this.dateTimePicker2.TabIndex = 88;
 			// 
-			// button22
+			// checkBox1
 			// 
-			this.button22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button22.BackgroundImage")));
-			this.button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button22.Location = new System.Drawing.Point(359, 197);
-			this.button22.Margin = new System.Windows.Forms.Padding(4);
-			this.button22.Name = "button22";
-			this.button22.Size = new System.Drawing.Size(29, 25);
-			this.button22.TabIndex = 80;
-			this.button22.UseVisualStyleBackColor = true;
+			this.checkBox1.AutoSize = true;
+			this.checkBox1.Location = new System.Drawing.Point(351, 90);
+			this.checkBox1.Name = "checkBox1";
+			this.checkBox1.Size = new System.Drawing.Size(128, 21);
+			this.checkBox1.TabIndex = 87;
+			this.checkBox1.Text = "Added to BART";
+			this.checkBox1.UseVisualStyleBackColor = true;
 			// 
-			// textBox20
+			// dateTimePicker1
 			// 
-			this.textBox20.Location = new System.Drawing.Point(397, 197);
-			this.textBox20.Margin = new System.Windows.Forms.Padding(4);
-			this.textBox20.Name = "textBox20";
-			this.textBox20.Size = new System.Drawing.Size(97, 22);
-			this.textBox20.TabIndex = 81;
-			// 
-			// label23
-			// 
-			this.label23.AutoSize = true;
-			this.label23.Location = new System.Drawing.Point(179, 171);
-			this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label23.Name = "label23";
-			this.label23.Size = new System.Drawing.Size(170, 17);
-			this.label23.TabIndex = 77;
-			this.label23.Text = "ROPA Date Agreed Label";
-			this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// button23
-			// 
-			this.button23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button23.BackgroundImage")));
-			this.button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button23.Location = new System.Drawing.Point(359, 165);
-			this.button23.Margin = new System.Windows.Forms.Padding(4);
-			this.button23.Name = "button23";
-			this.button23.Size = new System.Drawing.Size(29, 25);
-			this.button23.TabIndex = 78;
-			this.button23.UseVisualStyleBackColor = true;
-			// 
-			// label24
-			// 
-			this.label24.AutoSize = true;
-			this.label24.Location = new System.Drawing.Point(237, 139);
-			this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label24.Name = "label24";
-			this.label24.Size = new System.Drawing.Size(112, 17);
-			this.label24.TabIndex = 74;
-			this.label24.Text = "ROPA Ref Label";
-			this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// button24
-			// 
-			this.button24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button24.BackgroundImage")));
-			this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button24.Location = new System.Drawing.Point(359, 135);
-			this.button24.Margin = new System.Windows.Forms.Padding(4);
-			this.button24.Name = "button24";
-			this.button24.Size = new System.Drawing.Size(29, 25);
-			this.button24.TabIndex = 75;
-			this.button24.UseVisualStyleBackColor = true;
-			// 
-			// textBox21
-			// 
-			this.textBox21.Location = new System.Drawing.Point(397, 135);
-			this.textBox21.Margin = new System.Windows.Forms.Padding(4);
-			this.textBox21.Name = "textBox21";
-			this.textBox21.Size = new System.Drawing.Size(97, 22);
-			this.textBox21.TabIndex = 76;
-			// 
-			// label25
-			// 
-			this.label25.AutoSize = true;
-			this.label25.Location = new System.Drawing.Point(204, 107);
-			this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label25.Name = "label25";
-			this.label25.Size = new System.Drawing.Size(145, 17);
-			this.label25.TabIndex = 71;
-			this.label25.Text = "Added to BART Label";
-			this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// button25
-			// 
-			this.button25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button25.BackgroundImage")));
-			this.button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button25.Location = new System.Drawing.Point(359, 103);
-			this.button25.Margin = new System.Windows.Forms.Padding(4);
-			this.button25.Name = "button25";
-			this.button25.Size = new System.Drawing.Size(29, 25);
-			this.button25.TabIndex = 72;
-			this.button25.UseVisualStyleBackColor = true;
-			// 
-			// label26
-			// 
-			this.label26.AutoSize = true;
-			this.label26.Location = new System.Drawing.Point(188, 77);
-			this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label26.Name = "label26";
-			this.label26.Size = new System.Drawing.Size(161, 17);
-			this.label26.TabIndex = 68;
-			this.label26.Text = "DPIA Date agreed Label";
-			this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// button26
-			// 
-			this.button26.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button26.BackgroundImage")));
-			this.button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button26.Location = new System.Drawing.Point(358, 73);
-			this.button26.Margin = new System.Windows.Forms.Padding(4);
-			this.button26.Name = "button26";
-			this.button26.Size = new System.Drawing.Size(29, 25);
-			this.button26.TabIndex = 69;
-			this.button26.UseVisualStyleBackColor = true;
-			// 
-			// label27
-			// 
-			this.label27.AutoSize = true;
-			this.label27.Location = new System.Drawing.Point(246, 44);
-			this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label27.Name = "label27";
-			this.label27.Size = new System.Drawing.Size(104, 17);
-			this.label27.TabIndex = 65;
-			this.label27.Text = "DPIA Ref Label";
-			this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// button27
-			// 
-			this.button27.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button27.BackgroundImage")));
-			this.button27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button27.Location = new System.Drawing.Point(358, 41);
-			this.button27.Margin = new System.Windows.Forms.Padding(4);
-			this.button27.Name = "button27";
-			this.button27.Size = new System.Drawing.Size(29, 25);
-			this.button27.TabIndex = 66;
-			this.button27.UseVisualStyleBackColor = true;
-			// 
-			// textBox24
-			// 
-			this.textBox24.Location = new System.Drawing.Point(396, 41);
-			this.textBox24.Margin = new System.Windows.Forms.Padding(4);
-			this.textBox24.Name = "textBox24";
-			this.textBox24.Size = new System.Drawing.Size(97, 22);
-			this.textBox24.TabIndex = 67;
+			this.dateTimePicker1.Location = new System.Drawing.Point(351, 57);
+			this.dateTimePicker1.Name = "dateTimePicker1";
+			this.dateTimePicker1.Size = new System.Drawing.Size(159, 22);
+			this.dateTimePicker1.TabIndex = 86;
 			// 
 			// label28
 			// 
 			this.label28.AutoSize = true;
-			this.label28.Location = new System.Drawing.Point(59, 231);
+			this.label28.Location = new System.Drawing.Point(13, 215);
 			this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label28.Name = "label28";
 			this.label28.Size = new System.Drawing.Size(291, 17);
@@ -1158,48 +922,369 @@
 			// 
 			this.button28.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button28.BackgroundImage")));
 			this.button28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button28.Location = new System.Drawing.Point(359, 227);
+			this.button28.Location = new System.Drawing.Point(313, 211);
 			this.button28.Margin = new System.Windows.Forms.Padding(4);
 			this.button28.Name = "button28";
 			this.button28.Size = new System.Drawing.Size(29, 25);
 			this.button28.TabIndex = 84;
 			this.button28.UseVisualStyleBackColor = true;
 			// 
-			// dateTimePicker1
+			// label22
 			// 
-			this.dateTimePicker1.Location = new System.Drawing.Point(397, 73);
-			this.dateTimePicker1.Name = "dateTimePicker1";
-			this.dateTimePicker1.Size = new System.Drawing.Size(159, 22);
-			this.dateTimePicker1.TabIndex = 86;
+			this.label22.AutoSize = true;
+			this.label22.Location = new System.Drawing.Point(114, 184);
+			this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label22.Name = "label22";
+			this.label22.Size = new System.Drawing.Size(189, 17);
+			this.label22.TabIndex = 79;
+			this.label22.Text = "Accessibility Compliant Label";
+			this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
-			// checkBox1
+			// button22
 			// 
-			this.checkBox1.AutoSize = true;
-			this.checkBox1.Location = new System.Drawing.Point(397, 106);
-			this.checkBox1.Name = "checkBox1";
-			this.checkBox1.Size = new System.Drawing.Size(128, 21);
-			this.checkBox1.TabIndex = 87;
-			this.checkBox1.Text = "Added to BART";
-			this.checkBox1.UseVisualStyleBackColor = true;
+			this.button22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button22.BackgroundImage")));
+			this.button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.button22.Location = new System.Drawing.Point(313, 181);
+			this.button22.Margin = new System.Windows.Forms.Padding(4);
+			this.button22.Name = "button22";
+			this.button22.Size = new System.Drawing.Size(29, 25);
+			this.button22.TabIndex = 80;
+			this.button22.UseVisualStyleBackColor = true;
 			// 
-			// dateTimePicker2
+			// textBox20
 			// 
-			this.dateTimePicker2.Location = new System.Drawing.Point(397, 166);
-			this.dateTimePicker2.Name = "dateTimePicker2";
-			this.dateTimePicker2.Size = new System.Drawing.Size(159, 22);
-			this.dateTimePicker2.TabIndex = 88;
+			this.textBox20.Location = new System.Drawing.Point(351, 181);
+			this.textBox20.Margin = new System.Windows.Forms.Padding(4);
+			this.textBox20.Name = "textBox20";
+			this.textBox20.Size = new System.Drawing.Size(97, 22);
+			this.textBox20.TabIndex = 81;
 			// 
-			// dateTimePicker3
+			// label23
 			// 
-			this.dateTimePicker3.Location = new System.Drawing.Point(397, 226);
-			this.dateTimePicker3.Name = "dateTimePicker3";
-			this.dateTimePicker3.Size = new System.Drawing.Size(159, 22);
-			this.dateTimePicker3.TabIndex = 89;
+			this.label23.AutoSize = true;
+			this.label23.Location = new System.Drawing.Point(133, 155);
+			this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label23.Name = "label23";
+			this.label23.Size = new System.Drawing.Size(170, 17);
+			this.label23.TabIndex = 77;
+			this.label23.Text = "ROPA Date Agreed Label";
+			this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// button23
+			// 
+			this.button23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button23.BackgroundImage")));
+			this.button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.button23.Location = new System.Drawing.Point(313, 149);
+			this.button23.Margin = new System.Windows.Forms.Padding(4);
+			this.button23.Name = "button23";
+			this.button23.Size = new System.Drawing.Size(29, 25);
+			this.button23.TabIndex = 78;
+			this.button23.UseVisualStyleBackColor = true;
+			// 
+			// label24
+			// 
+			this.label24.AutoSize = true;
+			this.label24.Location = new System.Drawing.Point(191, 123);
+			this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label24.Name = "label24";
+			this.label24.Size = new System.Drawing.Size(112, 17);
+			this.label24.TabIndex = 74;
+			this.label24.Text = "ROPA Ref Label";
+			this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// button24
+			// 
+			this.button24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button24.BackgroundImage")));
+			this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.button24.Location = new System.Drawing.Point(313, 119);
+			this.button24.Margin = new System.Windows.Forms.Padding(4);
+			this.button24.Name = "button24";
+			this.button24.Size = new System.Drawing.Size(29, 25);
+			this.button24.TabIndex = 75;
+			this.button24.UseVisualStyleBackColor = true;
+			// 
+			// textBox21
+			// 
+			this.textBox21.Location = new System.Drawing.Point(351, 119);
+			this.textBox21.Margin = new System.Windows.Forms.Padding(4);
+			this.textBox21.Name = "textBox21";
+			this.textBox21.Size = new System.Drawing.Size(97, 22);
+			this.textBox21.TabIndex = 76;
+			// 
+			// label25
+			// 
+			this.label25.AutoSize = true;
+			this.label25.Location = new System.Drawing.Point(158, 91);
+			this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label25.Name = "label25";
+			this.label25.Size = new System.Drawing.Size(145, 17);
+			this.label25.TabIndex = 71;
+			this.label25.Text = "Added to BART Label";
+			this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// button25
+			// 
+			this.button25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button25.BackgroundImage")));
+			this.button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.button25.Location = new System.Drawing.Point(313, 87);
+			this.button25.Margin = new System.Windows.Forms.Padding(4);
+			this.button25.Name = "button25";
+			this.button25.Size = new System.Drawing.Size(29, 25);
+			this.button25.TabIndex = 72;
+			this.button25.UseVisualStyleBackColor = true;
+			// 
+			// label26
+			// 
+			this.label26.AutoSize = true;
+			this.label26.Location = new System.Drawing.Point(142, 61);
+			this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label26.Name = "label26";
+			this.label26.Size = new System.Drawing.Size(161, 17);
+			this.label26.TabIndex = 68;
+			this.label26.Text = "DPIA Date agreed Label";
+			this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// button26
+			// 
+			this.button26.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button26.BackgroundImage")));
+			this.button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.button26.Location = new System.Drawing.Point(312, 57);
+			this.button26.Margin = new System.Windows.Forms.Padding(4);
+			this.button26.Name = "button26";
+			this.button26.Size = new System.Drawing.Size(29, 25);
+			this.button26.TabIndex = 69;
+			this.button26.UseVisualStyleBackColor = true;
+			// 
+			// label27
+			// 
+			this.label27.AutoSize = true;
+			this.label27.Location = new System.Drawing.Point(200, 28);
+			this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label27.Name = "label27";
+			this.label27.Size = new System.Drawing.Size(104, 17);
+			this.label27.TabIndex = 65;
+			this.label27.Text = "DPIA Ref Label";
+			this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// button27
+			// 
+			this.button27.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button27.BackgroundImage")));
+			this.button27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.button27.Location = new System.Drawing.Point(312, 25);
+			this.button27.Margin = new System.Windows.Forms.Padding(4);
+			this.button27.Name = "button27";
+			this.button27.Size = new System.Drawing.Size(29, 25);
+			this.button27.TabIndex = 66;
+			this.button27.UseVisualStyleBackColor = true;
+			// 
+			// textBox24
+			// 
+			this.textBox24.Location = new System.Drawing.Point(350, 25);
+			this.textBox24.Margin = new System.Windows.Forms.Padding(4);
+			this.textBox24.Name = "textBox24";
+			this.textBox24.Size = new System.Drawing.Size(97, 22);
+			this.textBox24.TabIndex = 67;
+			// 
+			// tabPage5
+			// 
+			this.tabPage5.Controls.Add(this.groupBox5);
+			this.tabPage5.Location = new System.Drawing.Point(4, 25);
+			this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
+			this.tabPage5.Name = "tabPage5";
+			this.tabPage5.Padding = new System.Windows.Forms.Padding(4);
+			this.tabPage5.Size = new System.Drawing.Size(979, 404);
+			this.tabPage5.TabIndex = 4;
+			this.tabPage5.Text = "Info:";
+			this.tabPage5.UseVisualStyleBackColor = true;
+			// 
+			// textBox25
+			// 
+			this.textBox25.Location = new System.Drawing.Point(298, 193);
+			this.textBox25.Multiline = true;
+			this.textBox25.Name = "textBox25";
+			this.textBox25.Size = new System.Drawing.Size(291, 22);
+			this.textBox25.TabIndex = 109;
+			// 
+			// button35
+			// 
+			this.button35.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button35.BackgroundImage")));
+			this.button35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.button35.Location = new System.Drawing.Point(258, 192);
+			this.button35.Margin = new System.Windows.Forms.Padding(4);
+			this.button35.Name = "button35";
+			this.button35.Size = new System.Drawing.Size(29, 25);
+			this.button35.TabIndex = 108;
+			this.button35.UseVisualStyleBackColor = true;
+			// 
+			// label35
+			// 
+			this.label35.AutoSize = true;
+			this.label35.Location = new System.Drawing.Point(98, 196);
+			this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label35.Name = "label35";
+			this.label35.Size = new System.Drawing.Size(152, 17);
+			this.label35.TabIndex = 107;
+			this.label35.Text = "Business Benefit Label";
+			this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// textBox23
+			// 
+			this.textBox23.Location = new System.Drawing.Point(298, 165);
+			this.textBox23.Multiline = true;
+			this.textBox23.Name = "textBox23";
+			this.textBox23.Size = new System.Drawing.Size(291, 22);
+			this.textBox23.TabIndex = 106;
+			// 
+			// button34
+			// 
+			this.button34.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button34.BackgroundImage")));
+			this.button34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.button34.Location = new System.Drawing.Point(258, 164);
+			this.button34.Margin = new System.Windows.Forms.Padding(4);
+			this.button34.Name = "button34";
+			this.button34.Size = new System.Drawing.Size(29, 25);
+			this.button34.TabIndex = 105;
+			this.button34.UseVisualStyleBackColor = true;
+			// 
+			// label34
+			// 
+			this.label34.AutoSize = true;
+			this.label34.Location = new System.Drawing.Point(134, 168);
+			this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label34.Name = "label34";
+			this.label34.Size = new System.Drawing.Size(118, 17);
+			this.label34.TabIndex = 104;
+			this.label34.Text = "Description Label";
+			this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// textBox22
+			// 
+			this.textBox22.Location = new System.Drawing.Point(299, 137);
+			this.textBox22.Multiline = true;
+			this.textBox22.Name = "textBox22";
+			this.textBox22.Size = new System.Drawing.Size(291, 22);
+			this.textBox22.TabIndex = 103;
+			// 
+			// button33
+			// 
+			this.button33.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button33.BackgroundImage")));
+			this.button33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.button33.Location = new System.Drawing.Point(259, 136);
+			this.button33.Margin = new System.Windows.Forms.Padding(4);
+			this.button33.Name = "button33";
+			this.button33.Size = new System.Drawing.Size(29, 25);
+			this.button33.TabIndex = 102;
+			this.button33.UseVisualStyleBackColor = true;
+			// 
+			// label33
+			// 
+			this.label33.AutoSize = true;
+			this.label33.Location = new System.Drawing.Point(167, 140);
+			this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label33.Name = "label33";
+			this.label33.Size = new System.Drawing.Size(84, 17);
+			this.label33.TabIndex = 101;
+			this.label33.Text = "Notes Label";
+			this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// button32
+			// 
+			this.button32.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button32.BackgroundImage")));
+			this.button32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.button32.Location = new System.Drawing.Point(260, 108);
+			this.button32.Margin = new System.Windows.Forms.Padding(4);
+			this.button32.Name = "button32";
+			this.button32.Size = new System.Drawing.Size(29, 25);
+			this.button32.TabIndex = 99;
+			this.button32.UseVisualStyleBackColor = true;
+			// 
+			// label32
+			// 
+			this.label32.AutoSize = true;
+			this.label32.Location = new System.Drawing.Point(104, 112);
+			this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label32.Name = "label32";
+			this.label32.Size = new System.Drawing.Size(148, 17);
+			this.label32.TabIndex = 98;
+			this.label32.Text = "Update Process Label";
+			this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// textBox19
+			// 
+			this.textBox19.Location = new System.Drawing.Point(299, 109);
+			this.textBox19.Multiline = true;
+			this.textBox19.Name = "textBox19";
+			this.textBox19.Size = new System.Drawing.Size(291, 22);
+			this.textBox19.TabIndex = 97;
+			// 
+			// listBox6
+			// 
+			this.listBox6.FormattingEnabled = true;
+			this.listBox6.ItemHeight = 16;
+			this.listBox6.Location = new System.Drawing.Point(299, 81);
+			this.listBox6.Margin = new System.Windows.Forms.Padding(4);
+			this.listBox6.Name = "listBox6";
+			this.listBox6.Size = new System.Drawing.Size(96, 20);
+			this.listBox6.TabIndex = 96;
+			// 
+			// button31
+			// 
+			this.button31.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button31.BackgroundImage")));
+			this.button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.button31.Location = new System.Drawing.Point(260, 77);
+			this.button31.Margin = new System.Windows.Forms.Padding(4);
+			this.button31.Name = "button31";
+			this.button31.Size = new System.Drawing.Size(29, 25);
+			this.button31.TabIndex = 95;
+			this.button31.UseVisualStyleBackColor = true;
+			// 
+			// label31
+			// 
+			this.label31.AutoSize = true;
+			this.label31.Location = new System.Drawing.Point(89, 81);
+			this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label31.Name = "label31";
+			this.label31.Size = new System.Drawing.Size(163, 17);
+			this.label31.TabIndex = 94;
+			this.label31.Text = "Back End Platform Label";
+			this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// listBox5
+			// 
+			this.listBox5.FormattingEnabled = true;
+			this.listBox5.ItemHeight = 16;
+			this.listBox5.Location = new System.Drawing.Point(299, 53);
+			this.listBox5.Margin = new System.Windows.Forms.Padding(4);
+			this.listBox5.Name = "listBox5";
+			this.listBox5.Size = new System.Drawing.Size(96, 20);
+			this.listBox5.TabIndex = 93;
+			// 
+			// button30
+			// 
+			this.button30.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button30.BackgroundImage")));
+			this.button30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.button30.Location = new System.Drawing.Point(260, 49);
+			this.button30.Margin = new System.Windows.Forms.Padding(4);
+			this.button30.Name = "button30";
+			this.button30.Size = new System.Drawing.Size(29, 25);
+			this.button30.TabIndex = 92;
+			this.button30.UseVisualStyleBackColor = true;
+			// 
+			// label30
+			// 
+			this.label30.AutoSize = true;
+			this.label30.Location = new System.Drawing.Point(87, 53);
+			this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label30.Name = "label30";
+			this.label30.Size = new System.Drawing.Size(165, 17);
+			this.label30.TabIndex = 91;
+			this.label30.Text = "Front End Platform Label";
+			this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// checkBox2
 			// 
 			this.checkBox2.AutoSize = true;
-			this.checkBox2.Location = new System.Drawing.Point(328, 28);
+			this.checkBox2.Location = new System.Drawing.Point(298, 21);
 			this.checkBox2.Name = "checkBox2";
 			this.checkBox2.Size = new System.Drawing.Size(225, 21);
 			this.checkBox2.TabIndex = 90;
@@ -1209,7 +1294,7 @@
 			// label29
 			// 
 			this.label29.AutoSize = true;
-			this.label29.Location = new System.Drawing.Point(40, 29);
+			this.label29.Location = new System.Drawing.Point(10, 22);
 			this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label29.Name = "label29";
 			this.label29.Size = new System.Drawing.Size(242, 17);
@@ -1221,196 +1306,162 @@
 			// 
 			this.button29.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button29.BackgroundImage")));
 			this.button29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button29.Location = new System.Drawing.Point(290, 25);
+			this.button29.Location = new System.Drawing.Point(260, 18);
 			this.button29.Margin = new System.Windows.Forms.Padding(4);
 			this.button29.Name = "button29";
 			this.button29.Size = new System.Drawing.Size(29, 25);
 			this.button29.TabIndex = 89;
 			this.button29.UseVisualStyleBackColor = true;
 			// 
-			// listBox5
+			// groupBox1
 			// 
-			this.listBox5.FormattingEnabled = true;
-			this.listBox5.ItemHeight = 16;
-			this.listBox5.Location = new System.Drawing.Point(329, 60);
-			this.listBox5.Margin = new System.Windows.Forms.Padding(4);
-			this.listBox5.Name = "listBox5";
-			this.listBox5.Size = new System.Drawing.Size(96, 20);
-			this.listBox5.TabIndex = 93;
+			this.groupBox1.Controls.Add(this.label1);
+			this.groupBox1.Controls.Add(this.listBox1);
+			this.groupBox1.Controls.Add(this.textBox1);
+			this.groupBox1.Controls.Add(this.button5);
+			this.groupBox1.Controls.Add(this.button1);
+			this.groupBox1.Controls.Add(this.label5);
+			this.groupBox1.Controls.Add(this.textBox2);
+			this.groupBox1.Controls.Add(this.label4);
+			this.groupBox1.Controls.Add(this.button2);
+			this.groupBox1.Controls.Add(this.button4);
+			this.groupBox1.Controls.Add(this.label2);
+			this.groupBox1.Controls.Add(this.textBox4);
+			this.groupBox1.Controls.Add(this.textBox3);
+			this.groupBox1.Controls.Add(this.label3);
+			this.groupBox1.Controls.Add(this.button3);
+			this.groupBox1.Location = new System.Drawing.Point(7, 7);
+			this.groupBox1.Name = "groupBox1";
+			this.groupBox1.Size = new System.Drawing.Size(478, 203);
+			this.groupBox1.TabIndex = 15;
+			this.groupBox1.TabStop = false;
+			this.groupBox1.Text = "groupBox1";
 			// 
-			// button30
+			// groupBox2
 			// 
-			this.button30.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button30.BackgroundImage")));
-			this.button30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button30.Location = new System.Drawing.Point(290, 56);
-			this.button30.Margin = new System.Windows.Forms.Padding(4);
-			this.button30.Name = "button30";
-			this.button30.Size = new System.Drawing.Size(29, 25);
-			this.button30.TabIndex = 92;
-			this.button30.UseVisualStyleBackColor = true;
+			this.groupBox2.Controls.Add(this.label8);
+			this.groupBox2.Controls.Add(this.listBox4);
+			this.groupBox2.Controls.Add(this.textBox6);
+			this.groupBox2.Controls.Add(this.label14);
+			this.groupBox2.Controls.Add(this.button8);
+			this.groupBox2.Controls.Add(this.button14);
+			this.groupBox2.Controls.Add(this.textBox5);
+			this.groupBox2.Controls.Add(this.textBox11);
+			this.groupBox2.Controls.Add(this.button7);
+			this.groupBox2.Controls.Add(this.label15);
+			this.groupBox2.Controls.Add(this.label7);
+			this.groupBox2.Controls.Add(this.button15);
+			this.groupBox2.Controls.Add(this.label6);
+			this.groupBox2.Controls.Add(this.label12);
+			this.groupBox2.Controls.Add(this.button6);
+			this.groupBox2.Controls.Add(this.button12);
+			this.groupBox2.Controls.Add(this.listBox2);
+			this.groupBox2.Controls.Add(this.textBox9);
+			this.groupBox2.Controls.Add(this.label9);
+			this.groupBox2.Controls.Add(this.label13);
+			this.groupBox2.Controls.Add(this.button9);
+			this.groupBox2.Controls.Add(this.button13);
+			this.groupBox2.Controls.Add(this.listBox3);
+			this.groupBox2.Controls.Add(this.textBox10);
+			this.groupBox2.Controls.Add(this.textBox8);
+			this.groupBox2.Controls.Add(this.label10);
+			this.groupBox2.Controls.Add(this.button11);
+			this.groupBox2.Controls.Add(this.button10);
+			this.groupBox2.Controls.Add(this.label11);
+			this.groupBox2.Controls.Add(this.textBox7);
+			this.groupBox2.Location = new System.Drawing.Point(7, 7);
+			this.groupBox2.Name = "groupBox2";
+			this.groupBox2.Size = new System.Drawing.Size(511, 348);
+			this.groupBox2.TabIndex = 47;
+			this.groupBox2.TabStop = false;
+			this.groupBox2.Text = "groupBox2";
 			// 
-			// label30
+			// groupBox3
 			// 
-			this.label30.AutoSize = true;
-			this.label30.Location = new System.Drawing.Point(117, 60);
-			this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label30.Name = "label30";
-			this.label30.Size = new System.Drawing.Size(165, 17);
-			this.label30.TabIndex = 91;
-			this.label30.Text = "Front End Platform Label";
-			this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.groupBox3.Controls.Add(this.label21);
+			this.groupBox3.Controls.Add(this.textBox18);
+			this.groupBox3.Controls.Add(this.textBox17);
+			this.groupBox3.Controls.Add(this.label16);
+			this.groupBox3.Controls.Add(this.button21);
+			this.groupBox3.Controls.Add(this.button16);
+			this.groupBox3.Controls.Add(this.textBox16);
+			this.groupBox3.Controls.Add(this.textBox13);
+			this.groupBox3.Controls.Add(this.button20);
+			this.groupBox3.Controls.Add(this.label17);
+			this.groupBox3.Controls.Add(this.label20);
+			this.groupBox3.Controls.Add(this.button17);
+			this.groupBox3.Controls.Add(this.textBox15);
+			this.groupBox3.Controls.Add(this.label18);
+			this.groupBox3.Controls.Add(this.button19);
+			this.groupBox3.Controls.Add(this.button18);
+			this.groupBox3.Controls.Add(this.label19);
+			this.groupBox3.Controls.Add(this.textBox14);
+			this.groupBox3.Location = new System.Drawing.Point(7, 7);
+			this.groupBox3.Name = "groupBox3";
+			this.groupBox3.Size = new System.Drawing.Size(504, 239);
+			this.groupBox3.TabIndex = 65;
+			this.groupBox3.TabStop = false;
+			this.groupBox3.Text = "groupBox3";
 			// 
-			// listBox6
+			// groupBox4
 			// 
-			this.listBox6.FormattingEnabled = true;
-			this.listBox6.ItemHeight = 16;
-			this.listBox6.Location = new System.Drawing.Point(329, 88);
-			this.listBox6.Margin = new System.Windows.Forms.Padding(4);
-			this.listBox6.Name = "listBox6";
-			this.listBox6.Size = new System.Drawing.Size(96, 20);
-			this.listBox6.TabIndex = 96;
+			this.groupBox4.Controls.Add(this.label27);
+			this.groupBox4.Controls.Add(this.dateTimePicker3);
+			this.groupBox4.Controls.Add(this.textBox24);
+			this.groupBox4.Controls.Add(this.dateTimePicker2);
+			this.groupBox4.Controls.Add(this.button27);
+			this.groupBox4.Controls.Add(this.checkBox1);
+			this.groupBox4.Controls.Add(this.button26);
+			this.groupBox4.Controls.Add(this.dateTimePicker1);
+			this.groupBox4.Controls.Add(this.label26);
+			this.groupBox4.Controls.Add(this.label28);
+			this.groupBox4.Controls.Add(this.button25);
+			this.groupBox4.Controls.Add(this.button28);
+			this.groupBox4.Controls.Add(this.label25);
+			this.groupBox4.Controls.Add(this.label22);
+			this.groupBox4.Controls.Add(this.textBox21);
+			this.groupBox4.Controls.Add(this.button22);
+			this.groupBox4.Controls.Add(this.button24);
+			this.groupBox4.Controls.Add(this.textBox20);
+			this.groupBox4.Controls.Add(this.label24);
+			this.groupBox4.Controls.Add(this.label23);
+			this.groupBox4.Controls.Add(this.button23);
+			this.groupBox4.Location = new System.Drawing.Point(7, 7);
+			this.groupBox4.Name = "groupBox4";
+			this.groupBox4.Size = new System.Drawing.Size(533, 246);
+			this.groupBox4.TabIndex = 90;
+			this.groupBox4.TabStop = false;
+			this.groupBox4.Text = "groupBox4";
 			// 
-			// button31
+			// groupBox5
 			// 
-			this.button31.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button31.BackgroundImage")));
-			this.button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button31.Location = new System.Drawing.Point(290, 84);
-			this.button31.Margin = new System.Windows.Forms.Padding(4);
-			this.button31.Name = "button31";
-			this.button31.Size = new System.Drawing.Size(29, 25);
-			this.button31.TabIndex = 95;
-			this.button31.UseVisualStyleBackColor = true;
-			// 
-			// label31
-			// 
-			this.label31.AutoSize = true;
-			this.label31.Location = new System.Drawing.Point(119, 88);
-			this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label31.Name = "label31";
-			this.label31.Size = new System.Drawing.Size(163, 17);
-			this.label31.TabIndex = 94;
-			this.label31.Text = "Back End Platform Label";
-			this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// textBox19
-			// 
-			this.textBox19.Location = new System.Drawing.Point(329, 116);
-			this.textBox19.Multiline = true;
-			this.textBox19.Name = "textBox19";
-			this.textBox19.Size = new System.Drawing.Size(291, 22);
-			this.textBox19.TabIndex = 97;
-			// 
-			// button32
-			// 
-			this.button32.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button32.BackgroundImage")));
-			this.button32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button32.Location = new System.Drawing.Point(290, 115);
-			this.button32.Margin = new System.Windows.Forms.Padding(4);
-			this.button32.Name = "button32";
-			this.button32.Size = new System.Drawing.Size(29, 25);
-			this.button32.TabIndex = 99;
-			this.button32.UseVisualStyleBackColor = true;
-			// 
-			// label32
-			// 
-			this.label32.AutoSize = true;
-			this.label32.Location = new System.Drawing.Point(134, 119);
-			this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label32.Name = "label32";
-			this.label32.Size = new System.Drawing.Size(148, 17);
-			this.label32.TabIndex = 98;
-			this.label32.Text = "Update Process Label";
-			this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// button33
-			// 
-			this.button33.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button33.BackgroundImage")));
-			this.button33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button33.Location = new System.Drawing.Point(289, 143);
-			this.button33.Margin = new System.Windows.Forms.Padding(4);
-			this.button33.Name = "button33";
-			this.button33.Size = new System.Drawing.Size(29, 25);
-			this.button33.TabIndex = 102;
-			this.button33.UseVisualStyleBackColor = true;
-			// 
-			// label33
-			// 
-			this.label33.AutoSize = true;
-			this.label33.Location = new System.Drawing.Point(197, 147);
-			this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label33.Name = "label33";
-			this.label33.Size = new System.Drawing.Size(84, 17);
-			this.label33.TabIndex = 101;
-			this.label33.Text = "Notes Label";
-			this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// textBox22
-			// 
-			this.textBox22.Location = new System.Drawing.Point(329, 144);
-			this.textBox22.Multiline = true;
-			this.textBox22.Name = "textBox22";
-			this.textBox22.Size = new System.Drawing.Size(291, 22);
-			this.textBox22.TabIndex = 103;
-			// 
-			// textBox23
-			// 
-			this.textBox23.Location = new System.Drawing.Point(328, 172);
-			this.textBox23.Multiline = true;
-			this.textBox23.Name = "textBox23";
-			this.textBox23.Size = new System.Drawing.Size(291, 22);
-			this.textBox23.TabIndex = 106;
-			// 
-			// button34
-			// 
-			this.button34.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button34.BackgroundImage")));
-			this.button34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button34.Location = new System.Drawing.Point(288, 171);
-			this.button34.Margin = new System.Windows.Forms.Padding(4);
-			this.button34.Name = "button34";
-			this.button34.Size = new System.Drawing.Size(29, 25);
-			this.button34.TabIndex = 105;
-			this.button34.UseVisualStyleBackColor = true;
-			// 
-			// label34
-			// 
-			this.label34.AutoSize = true;
-			this.label34.Location = new System.Drawing.Point(164, 175);
-			this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label34.Name = "label34";
-			this.label34.Size = new System.Drawing.Size(118, 17);
-			this.label34.TabIndex = 104;
-			this.label34.Text = "Description Label";
-			this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// textBox25
-			// 
-			this.textBox25.Location = new System.Drawing.Point(328, 200);
-			this.textBox25.Multiline = true;
-			this.textBox25.Name = "textBox25";
-			this.textBox25.Size = new System.Drawing.Size(291, 22);
-			this.textBox25.TabIndex = 109;
-			// 
-			// button35
-			// 
-			this.button35.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button35.BackgroundImage")));
-			this.button35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button35.Location = new System.Drawing.Point(288, 199);
-			this.button35.Margin = new System.Windows.Forms.Padding(4);
-			this.button35.Name = "button35";
-			this.button35.Size = new System.Drawing.Size(29, 25);
-			this.button35.TabIndex = 108;
-			this.button35.UseVisualStyleBackColor = true;
-			// 
-			// label35
-			// 
-			this.label35.AutoSize = true;
-			this.label35.Location = new System.Drawing.Point(128, 203);
-			this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label35.Name = "label35";
-			this.label35.Size = new System.Drawing.Size(152, 17);
-			this.label35.TabIndex = 107;
-			this.label35.Text = "Business Benefit Label";
-			this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.groupBox5.Controls.Add(this.checkBox2);
+			this.groupBox5.Controls.Add(this.textBox25);
+			this.groupBox5.Controls.Add(this.button29);
+			this.groupBox5.Controls.Add(this.button35);
+			this.groupBox5.Controls.Add(this.label29);
+			this.groupBox5.Controls.Add(this.label35);
+			this.groupBox5.Controls.Add(this.label30);
+			this.groupBox5.Controls.Add(this.textBox23);
+			this.groupBox5.Controls.Add(this.button30);
+			this.groupBox5.Controls.Add(this.button34);
+			this.groupBox5.Controls.Add(this.listBox5);
+			this.groupBox5.Controls.Add(this.label34);
+			this.groupBox5.Controls.Add(this.label31);
+			this.groupBox5.Controls.Add(this.textBox22);
+			this.groupBox5.Controls.Add(this.button31);
+			this.groupBox5.Controls.Add(this.button33);
+			this.groupBox5.Controls.Add(this.listBox6);
+			this.groupBox5.Controls.Add(this.label33);
+			this.groupBox5.Controls.Add(this.textBox19);
+			this.groupBox5.Controls.Add(this.button32);
+			this.groupBox5.Controls.Add(this.label32);
+			this.groupBox5.Location = new System.Drawing.Point(7, 7);
+			this.groupBox5.Name = "groupBox5";
+			this.groupBox5.Size = new System.Drawing.Size(601, 231);
+			this.groupBox5.TabIndex = 110;
+			this.groupBox5.TabStop = false;
+			this.groupBox5.Text = "groupBox5";
 			// 
 			// APPendix
 			// 
@@ -1418,7 +1469,7 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.AutoSize = true;
 			this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.ClientSize = new System.Drawing.Size(1037, 496);
+			this.ClientSize = new System.Drawing.Size(1037, 522);
 			this.Controls.Add(this.MainGroupBox);
 			this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.Name = "APPendix";
@@ -1427,15 +1478,20 @@
 			this.MainGroupBox.ResumeLayout(false);
 			this.tabControl1.ResumeLayout(false);
 			this.tabPage1.ResumeLayout(false);
-			this.tabPage1.PerformLayout();
 			this.tabPage2.ResumeLayout(false);
-			this.tabPage2.PerformLayout();
 			this.tabPage3.ResumeLayout(false);
-			this.tabPage3.PerformLayout();
 			this.tabPage4.ResumeLayout(false);
-			this.tabPage4.PerformLayout();
 			this.tabPage5.ResumeLayout(false);
-			this.tabPage5.PerformLayout();
+			this.groupBox1.ResumeLayout(false);
+			this.groupBox1.PerformLayout();
+			this.groupBox2.ResumeLayout(false);
+			this.groupBox2.PerformLayout();
+			this.groupBox3.ResumeLayout(false);
+			this.groupBox3.PerformLayout();
+			this.groupBox4.ResumeLayout(false);
+			this.groupBox4.PerformLayout();
+			this.groupBox5.ResumeLayout(false);
+			this.groupBox5.PerformLayout();
 			this.ResumeLayout(false);
 
 		}
@@ -1478,7 +1534,6 @@
 		private System.Windows.Forms.TextBox textBox11;
 		private System.Windows.Forms.Label label15;
 		private System.Windows.Forms.Button button15;
-		private System.Windows.Forms.TextBox textBox12;
 		private System.Windows.Forms.Label label12;
 		private System.Windows.Forms.Button button12;
 		private System.Windows.Forms.TextBox textBox9;
@@ -1555,6 +1610,11 @@
 		private System.Windows.Forms.CheckBox checkBox2;
 		private System.Windows.Forms.Label label29;
 		private System.Windows.Forms.Button button29;
+		private System.Windows.Forms.GroupBox groupBox1;
+		private System.Windows.Forms.GroupBox groupBox2;
+		private System.Windows.Forms.GroupBox groupBox3;
+		private System.Windows.Forms.GroupBox groupBox4;
+		private System.Windows.Forms.GroupBox groupBox5;
 	}
 }
 
