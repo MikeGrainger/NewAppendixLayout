@@ -21,5 +21,10 @@ namespace NewAppendixLayout
 		{
 			this.Close();
 		}
+
+		private void APPendix_Load(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

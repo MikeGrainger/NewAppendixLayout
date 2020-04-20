@@ -86,38 +86,39 @@
 			this.textBox18 = new System.Windows.Forms.TextBox();
 			this.label16 = new System.Windows.Forms.Label();
 			this.tabPage4 = new System.Windows.Forms.TabPage();
-			this.label27 = new System.Windows.Forms.Label();
-			this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-			this.textBox24 = new System.Windows.Forms.TextBox();
-			this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-			this.checkBox1 = new System.Windows.Forms.CheckBox();
-			this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-			this.label26 = new System.Windows.Forms.Label();
-			this.label28 = new System.Windows.Forms.Label();
+			this.panel13 = new System.Windows.Forms.Panel();
 			this.label22 = new System.Windows.Forms.Label();
-			this.textBox21 = new System.Windows.Forms.TextBox();
+			this.label28 = new System.Windows.Forms.Label();
 			this.textBox20 = new System.Windows.Forms.TextBox();
+			this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+			this.panel12 = new System.Windows.Forms.Panel();
 			this.label24 = new System.Windows.Forms.Label();
+			this.textBox21 = new System.Windows.Forms.TextBox();
+			this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
 			this.label23 = new System.Windows.Forms.Label();
+			this.panel11 = new System.Windows.Forms.Panel();
+			this.textBox24 = new System.Windows.Forms.TextBox();
+			this.label27 = new System.Windows.Forms.Label();
+			this.label26 = new System.Windows.Forms.Label();
+			this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+			this.checkBox1 = new System.Windows.Forms.CheckBox();
 			this.tabPage5 = new System.Windows.Forms.TabPage();
+			this.panel10 = new System.Windows.Forms.Panel();
+			this.label30 = new System.Windows.Forms.Label();
+			this.label31 = new System.Windows.Forms.Label();
+			this.listBox6 = new System.Windows.Forms.ListBox();
+			this.listBox5 = new System.Windows.Forms.ListBox();
 			this.checkBox2 = new System.Windows.Forms.CheckBox();
 			this.textBox25 = new System.Windows.Forms.TextBox();
 			this.label35 = new System.Windows.Forms.Label();
 			this.label32 = new System.Windows.Forms.Label();
-			this.label30 = new System.Windows.Forms.Label();
 			this.textBox19 = new System.Windows.Forms.TextBox();
 			this.textBox23 = new System.Windows.Forms.TextBox();
 			this.label33 = new System.Windows.Forms.Label();
-			this.listBox5 = new System.Windows.Forms.ListBox();
-			this.listBox6 = new System.Windows.Forms.ListBox();
 			this.label34 = new System.Windows.Forms.Label();
 			this.textBox22 = new System.Windows.Forms.TextBox();
-			this.label31 = new System.Windows.Forms.Label();
+			this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
 			this.button2 = new System.Windows.Forms.Button();
-			this.panel10 = new System.Windows.Forms.Panel();
-			this.panel11 = new System.Windows.Forms.Panel();
-			this.panel12 = new System.Windows.Forms.Panel();
-			this.panel13 = new System.Windows.Forms.Panel();
 			this.tabControl1.SuspendLayout();
 			this.tabPage1.SuspendLayout();
 			this.panel6.SuspendLayout();
@@ -132,11 +133,11 @@
 			this.panel8.SuspendLayout();
 			this.panel7.SuspendLayout();
 			this.tabPage4.SuspendLayout();
+			this.panel13.SuspendLayout();
+			this.panel12.SuspendLayout();
+			this.panel11.SuspendLayout();
 			this.tabPage5.SuspendLayout();
 			this.panel10.SuspendLayout();
-			this.panel11.SuspendLayout();
-			this.panel12.SuspendLayout();
-			this.panel13.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// tabControl1
@@ -169,6 +170,7 @@
 			// 
 			// panel6
 			// 
+			this.panel6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.panel6.Controls.Add(this.textBox1);
 			this.panel6.Controls.Add(this.comboBox1);
 			this.panel6.Controls.Add(this.label2);
@@ -188,8 +190,12 @@
 			// textBox1
 			// 
 			this.textBox1.AccessibleDescription = "";
+			this.textBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+			this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.textBox1.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.textBox1.Location = new System.Drawing.Point(314, 15);
 			this.textBox1.Margin = new System.Windows.Forms.Padding(6);
+			this.textBox1.Multiline = true;
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(131, 30);
 			this.textBox1.TabIndex = 2;
@@ -690,6 +696,9 @@
 			// 
 			// panel7
 			// 
+			this.panel7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
 			this.panel7.Controls.Add(this.label17);
 			this.panel7.Controls.Add(this.textBox13);
 			this.panel7.Controls.Add(this.textBox18);
@@ -752,6 +761,123 @@
 			this.tabPage4.Text = "Governance:";
 			this.tabPage4.UseVisualStyleBackColor = true;
 			// 
+			// panel13
+			// 
+			this.panel13.Controls.Add(this.label22);
+			this.panel13.Controls.Add(this.label28);
+			this.panel13.Controls.Add(this.textBox20);
+			this.panel13.Controls.Add(this.dateTimePicker3);
+			this.panel13.Location = new System.Drawing.Point(23, 310);
+			this.panel13.Name = "panel13";
+			this.panel13.Size = new System.Drawing.Size(589, 100);
+			this.panel13.TabIndex = 92;
+			// 
+			// label22
+			// 
+			this.label22.AutoSize = true;
+			this.label22.Location = new System.Drawing.Point(145, 7);
+			this.label22.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label22.Name = "label22";
+			this.label22.Size = new System.Drawing.Size(216, 23);
+			this.label22.TabIndex = 79;
+			this.label22.Text = "Accessibility Compliant:";
+			this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// label28
+			// 
+			this.label28.AutoSize = true;
+			this.label28.Location = new System.Drawing.Point(5, 52);
+			this.label28.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label28.Name = "label28";
+			this.label28.Size = new System.Drawing.Size(358, 23);
+			this.label28.TabIndex = 83;
+			this.label28.Text = "Accessibility Compliance checked Date:";
+			this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// textBox20
+			// 
+			this.textBox20.Location = new System.Drawing.Point(374, 4);
+			this.textBox20.Margin = new System.Windows.Forms.Padding(6);
+			this.textBox20.Name = "textBox20";
+			this.textBox20.Size = new System.Drawing.Size(86, 30);
+			this.textBox20.TabIndex = 81;
+			// 
+			// dateTimePicker3
+			// 
+			this.dateTimePicker3.Location = new System.Drawing.Point(374, 46);
+			this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+			this.dateTimePicker3.Name = "dateTimePicker3";
+			this.dateTimePicker3.Size = new System.Drawing.Size(203, 30);
+			this.dateTimePicker3.TabIndex = 89;
+			// 
+			// panel12
+			// 
+			this.panel12.Controls.Add(this.label24);
+			this.panel12.Controls.Add(this.textBox21);
+			this.panel12.Controls.Add(this.dateTimePicker2);
+			this.panel12.Controls.Add(this.label23);
+			this.panel12.Location = new System.Drawing.Point(184, 189);
+			this.panel12.Name = "panel12";
+			this.panel12.Size = new System.Drawing.Size(441, 100);
+			this.panel12.TabIndex = 91;
+			// 
+			// label24
+			// 
+			this.label24.AutoSize = true;
+			this.label24.Location = new System.Drawing.Point(91, 13);
+			this.label24.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label24.Name = "label24";
+			this.label24.Size = new System.Drawing.Size(107, 23);
+			this.label24.TabIndex = 74;
+			this.label24.Text = "ROPA Ref:";
+			this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// textBox21
+			// 
+			this.textBox21.Location = new System.Drawing.Point(215, 8);
+			this.textBox21.Margin = new System.Windows.Forms.Padding(6);
+			this.textBox21.Name = "textBox21";
+			this.textBox21.Size = new System.Drawing.Size(150, 30);
+			this.textBox21.TabIndex = 76;
+			// 
+			// dateTimePicker2
+			// 
+			this.dateTimePicker2.Location = new System.Drawing.Point(215, 53);
+			this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+			this.dateTimePicker2.Name = "dateTimePicker2";
+			this.dateTimePicker2.Size = new System.Drawing.Size(203, 30);
+			this.dateTimePicker2.TabIndex = 88;
+			// 
+			// label23
+			// 
+			this.label23.AutoSize = true;
+			this.label23.Location = new System.Drawing.Point(11, 59);
+			this.label23.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label23.Name = "label23";
+			this.label23.Size = new System.Drawing.Size(187, 23);
+			this.label23.TabIndex = 77;
+			this.label23.Text = "ROPA Date Agreed:";
+			this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// panel11
+			// 
+			this.panel11.Controls.Add(this.textBox24);
+			this.panel11.Controls.Add(this.label27);
+			this.panel11.Controls.Add(this.label26);
+			this.panel11.Controls.Add(this.dateTimePicker1);
+			this.panel11.Location = new System.Drawing.Point(199, 25);
+			this.panel11.Name = "panel11";
+			this.panel11.Size = new System.Drawing.Size(414, 94);
+			this.panel11.TabIndex = 90;
+			// 
+			// textBox24
+			// 
+			this.textBox24.Location = new System.Drawing.Point(196, 6);
+			this.textBox24.Margin = new System.Windows.Forms.Padding(6);
+			this.textBox24.Name = "textBox24";
+			this.textBox24.Size = new System.Drawing.Size(131, 30);
+			this.textBox24.TabIndex = 67;
+			// 
 			// label27
 			// 
 			this.label27.AutoSize = true;
@@ -763,29 +889,24 @@
 			this.label27.Text = "DPIA Ref:";
 			this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
-			// dateTimePicker3
+			// label26
 			// 
-			this.dateTimePicker3.Location = new System.Drawing.Point(374, 46);
-			this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-			this.dateTimePicker3.Name = "dateTimePicker3";
-			this.dateTimePicker3.Size = new System.Drawing.Size(203, 30);
-			this.dateTimePicker3.TabIndex = 89;
+			this.label26.AutoSize = true;
+			this.label26.Location = new System.Drawing.Point(6, 57);
+			this.label26.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label26.Name = "label26";
+			this.label26.Size = new System.Drawing.Size(177, 23);
+			this.label26.TabIndex = 68;
+			this.label26.Text = "DPIA Date agreed:";
+			this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
-			// textBox24
+			// dateTimePicker1
 			// 
-			this.textBox24.Location = new System.Drawing.Point(196, 6);
-			this.textBox24.Margin = new System.Windows.Forms.Padding(6);
-			this.textBox24.Name = "textBox24";
-			this.textBox24.Size = new System.Drawing.Size(131, 30);
-			this.textBox24.TabIndex = 67;
-			// 
-			// dateTimePicker2
-			// 
-			this.dateTimePicker2.Location = new System.Drawing.Point(215, 53);
-			this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-			this.dateTimePicker2.Name = "dateTimePicker2";
-			this.dateTimePicker2.Size = new System.Drawing.Size(203, 30);
-			this.dateTimePicker2.TabIndex = 88;
+			this.dateTimePicker1.Location = new System.Drawing.Point(196, 51);
+			this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+			this.dateTimePicker1.Name = "dateTimePicker1";
+			this.dateTimePicker1.Size = new System.Drawing.Size(204, 30);
+			this.dateTimePicker1.TabIndex = 86;
 			// 
 			// checkBox1
 			// 
@@ -799,85 +920,6 @@
 			this.checkBox1.Text = "Added to BART";
 			this.checkBox1.UseVisualStyleBackColor = true;
 			// 
-			// dateTimePicker1
-			// 
-			this.dateTimePicker1.Location = new System.Drawing.Point(196, 51);
-			this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-			this.dateTimePicker1.Name = "dateTimePicker1";
-			this.dateTimePicker1.Size = new System.Drawing.Size(204, 30);
-			this.dateTimePicker1.TabIndex = 86;
-			// 
-			// label26
-			// 
-			this.label26.AutoSize = true;
-			this.label26.Location = new System.Drawing.Point(6, 57);
-			this.label26.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-			this.label26.Name = "label26";
-			this.label26.Size = new System.Drawing.Size(177, 23);
-			this.label26.TabIndex = 68;
-			this.label26.Text = "DPIA Date agreed:";
-			this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// label28
-			// 
-			this.label28.AutoSize = true;
-			this.label28.Location = new System.Drawing.Point(5, 52);
-			this.label28.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-			this.label28.Name = "label28";
-			this.label28.Size = new System.Drawing.Size(358, 23);
-			this.label28.TabIndex = 83;
-			this.label28.Text = "Accessibility Compliance checked Date:";
-			this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// label22
-			// 
-			this.label22.AutoSize = true;
-			this.label22.Location = new System.Drawing.Point(145, 7);
-			this.label22.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-			this.label22.Name = "label22";
-			this.label22.Size = new System.Drawing.Size(216, 23);
-			this.label22.TabIndex = 79;
-			this.label22.Text = "Accessibility Compliant:";
-			this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// textBox21
-			// 
-			this.textBox21.Location = new System.Drawing.Point(215, 8);
-			this.textBox21.Margin = new System.Windows.Forms.Padding(6);
-			this.textBox21.Name = "textBox21";
-			this.textBox21.Size = new System.Drawing.Size(150, 30);
-			this.textBox21.TabIndex = 76;
-			// 
-			// textBox20
-			// 
-			this.textBox20.Location = new System.Drawing.Point(374, 4);
-			this.textBox20.Margin = new System.Windows.Forms.Padding(6);
-			this.textBox20.Name = "textBox20";
-			this.textBox20.Size = new System.Drawing.Size(86, 30);
-			this.textBox20.TabIndex = 81;
-			// 
-			// label24
-			// 
-			this.label24.AutoSize = true;
-			this.label24.Location = new System.Drawing.Point(91, 13);
-			this.label24.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-			this.label24.Name = "label24";
-			this.label24.Size = new System.Drawing.Size(107, 23);
-			this.label24.TabIndex = 74;
-			this.label24.Text = "ROPA Ref:";
-			this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// label23
-			// 
-			this.label23.AutoSize = true;
-			this.label23.Location = new System.Drawing.Point(11, 59);
-			this.label23.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-			this.label23.Name = "label23";
-			this.label23.Size = new System.Drawing.Size(187, 23);
-			this.label23.TabIndex = 77;
-			this.label23.Text = "ROPA Date Agreed:";
-			this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
 			// tabPage5
 			// 
 			this.tabPage5.Controls.Add(this.panel10);
@@ -890,6 +932,7 @@
 			this.tabPage5.Controls.Add(this.label33);
 			this.tabPage5.Controls.Add(this.label34);
 			this.tabPage5.Controls.Add(this.textBox22);
+			this.tabPage5.Controls.Add(this.flowLayoutPanel1);
 			this.tabPage5.Location = new System.Drawing.Point(4, 32);
 			this.tabPage5.Margin = new System.Windows.Forms.Padding(6);
 			this.tabPage5.Name = "tabPage5";
@@ -898,6 +941,69 @@
 			this.tabPage5.TabIndex = 4;
 			this.tabPage5.Text = "Info:";
 			this.tabPage5.UseVisualStyleBackColor = true;
+			// 
+			// panel10
+			// 
+			this.panel10.Controls.Add(this.label30);
+			this.panel10.Controls.Add(this.label31);
+			this.panel10.Controls.Add(this.listBox6);
+			this.panel10.Controls.Add(this.listBox5);
+			this.panel10.Location = new System.Drawing.Point(42, 52);
+			this.panel10.Name = "panel10";
+			this.panel10.Size = new System.Drawing.Size(332, 95);
+			this.panel10.TabIndex = 110;
+			// 
+			// label30
+			// 
+			this.label30.AutoSize = true;
+			this.label30.Location = new System.Drawing.Point(6, 9);
+			this.label30.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label30.Name = "label30";
+			this.label30.Size = new System.Drawing.Size(182, 23);
+			this.label30.TabIndex = 91;
+			this.label30.Text = "Front End Platform:";
+			this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// label31
+			// 
+			this.label31.AutoSize = true;
+			this.label31.Location = new System.Drawing.Point(10, 49);
+			this.label31.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label31.Name = "label31";
+			this.label31.Size = new System.Drawing.Size(180, 23);
+			this.label31.TabIndex = 94;
+			this.label31.Text = "Back End Platform:";
+			this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// listBox6
+			// 
+			this.listBox6.FormattingEnabled = true;
+			this.listBox6.ItemHeight = 23;
+			this.listBox6.Items.AddRange(new object[] {
+            "listbox6a",
+            "listbox6b",
+            "listbox6c",
+            "listbox6d"});
+			this.listBox6.Location = new System.Drawing.Point(190, 49);
+			this.listBox6.Margin = new System.Windows.Forms.Padding(6);
+			this.listBox6.Name = "listBox6";
+			this.listBox6.Size = new System.Drawing.Size(130, 27);
+			this.listBox6.TabIndex = 96;
+			// 
+			// listBox5
+			// 
+			this.listBox5.FormattingEnabled = true;
+			this.listBox5.ItemHeight = 23;
+			this.listBox5.Items.AddRange(new object[] {
+            "listbox5a",
+            "listbox5b",
+            "listbox5c",
+            "listbox5d"});
+			this.listBox5.Location = new System.Drawing.Point(190, 9);
+			this.listBox5.Margin = new System.Windows.Forms.Padding(6);
+			this.listBox5.Name = "listBox5";
+			this.listBox5.Size = new System.Drawing.Size(130, 27);
+			this.listBox5.TabIndex = 93;
 			// 
 			// checkBox2
 			// 
@@ -942,17 +1048,6 @@
 			this.label32.Text = "Update Process:";
 			this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
-			// label30
-			// 
-			this.label30.AutoSize = true;
-			this.label30.Location = new System.Drawing.Point(6, 9);
-			this.label30.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-			this.label30.Name = "label30";
-			this.label30.Size = new System.Drawing.Size(182, 23);
-			this.label30.TabIndex = 91;
-			this.label30.Text = "Front End Platform:";
-			this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
 			// textBox19
 			// 
 			this.textBox19.Location = new System.Drawing.Point(210, 154);
@@ -982,26 +1077,6 @@
 			this.label33.Text = "Notes:";
 			this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
-			// listBox5
-			// 
-			this.listBox5.FormattingEnabled = true;
-			this.listBox5.ItemHeight = 23;
-			this.listBox5.Location = new System.Drawing.Point(190, 9);
-			this.listBox5.Margin = new System.Windows.Forms.Padding(6);
-			this.listBox5.Name = "listBox5";
-			this.listBox5.Size = new System.Drawing.Size(130, 27);
-			this.listBox5.TabIndex = 93;
-			// 
-			// listBox6
-			// 
-			this.listBox6.FormattingEnabled = true;
-			this.listBox6.ItemHeight = 23;
-			this.listBox6.Location = new System.Drawing.Point(190, 49);
-			this.listBox6.Margin = new System.Windows.Forms.Padding(6);
-			this.listBox6.Name = "listBox6";
-			this.listBox6.Size = new System.Drawing.Size(130, 27);
-			this.listBox6.TabIndex = 96;
-			// 
 			// label34
 			// 
 			this.label34.AutoSize = true;
@@ -1022,19 +1097,16 @@
 			this.textBox22.Size = new System.Drawing.Size(651, 60);
 			this.textBox22.TabIndex = 103;
 			// 
-			// label31
+			// flowLayoutPanel1
 			// 
-			this.label31.AutoSize = true;
-			this.label31.Location = new System.Drawing.Point(10, 49);
-			this.label31.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-			this.label31.Name = "label31";
-			this.label31.Size = new System.Drawing.Size(180, 23);
-			this.label31.TabIndex = 94;
-			this.label31.Text = "Back End Platform:";
-			this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.flowLayoutPanel1.Location = new System.Drawing.Point(9, 9);
+			this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+			this.flowLayoutPanel1.Size = new System.Drawing.Size(866, 446);
+			this.flowLayoutPanel1.TabIndex = 111;
 			// 
 			// button2
 			// 
+			this.button2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.button2.Location = new System.Drawing.Point(764, 533);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(139, 37);
@@ -1042,50 +1114,6 @@
 			this.button2.Text = "Close";
 			this.button2.UseVisualStyleBackColor = true;
 			this.button2.Click += new System.EventHandler(this.button2_Click);
-			// 
-			// panel10
-			// 
-			this.panel10.Controls.Add(this.label30);
-			this.panel10.Controls.Add(this.label31);
-			this.panel10.Controls.Add(this.listBox6);
-			this.panel10.Controls.Add(this.listBox5);
-			this.panel10.Location = new System.Drawing.Point(42, 52);
-			this.panel10.Name = "panel10";
-			this.panel10.Size = new System.Drawing.Size(332, 95);
-			this.panel10.TabIndex = 110;
-			// 
-			// panel11
-			// 
-			this.panel11.Controls.Add(this.textBox24);
-			this.panel11.Controls.Add(this.label27);
-			this.panel11.Controls.Add(this.label26);
-			this.panel11.Controls.Add(this.dateTimePicker1);
-			this.panel11.Location = new System.Drawing.Point(199, 25);
-			this.panel11.Name = "panel11";
-			this.panel11.Size = new System.Drawing.Size(414, 94);
-			this.panel11.TabIndex = 90;
-			// 
-			// panel12
-			// 
-			this.panel12.Controls.Add(this.label24);
-			this.panel12.Controls.Add(this.textBox21);
-			this.panel12.Controls.Add(this.dateTimePicker2);
-			this.panel12.Controls.Add(this.label23);
-			this.panel12.Location = new System.Drawing.Point(184, 189);
-			this.panel12.Name = "panel12";
-			this.panel12.Size = new System.Drawing.Size(441, 100);
-			this.panel12.TabIndex = 91;
-			// 
-			// panel13
-			// 
-			this.panel13.Controls.Add(this.label22);
-			this.panel13.Controls.Add(this.label28);
-			this.panel13.Controls.Add(this.textBox20);
-			this.panel13.Controls.Add(this.dateTimePicker3);
-			this.panel13.Location = new System.Drawing.Point(23, 310);
-			this.panel13.Name = "panel13";
-			this.panel13.Size = new System.Drawing.Size(589, 100);
-			this.panel13.TabIndex = 92;
 			// 
 			// APPendix
 			// 
@@ -1099,8 +1127,10 @@
 			this.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
 			this.Name = "APPendix";
+			this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "APPendix";
+			this.Load += new System.EventHandler(this.APPendix_Load);
 			this.tabControl1.ResumeLayout(false);
 			this.tabPage1.ResumeLayout(false);
 			this.panel6.ResumeLayout(false);
@@ -1125,16 +1155,16 @@
 			this.panel7.PerformLayout();
 			this.tabPage4.ResumeLayout(false);
 			this.tabPage4.PerformLayout();
+			this.panel13.ResumeLayout(false);
+			this.panel13.PerformLayout();
+			this.panel12.ResumeLayout(false);
+			this.panel12.PerformLayout();
+			this.panel11.ResumeLayout(false);
+			this.panel11.PerformLayout();
 			this.tabPage5.ResumeLayout(false);
 			this.tabPage5.PerformLayout();
 			this.panel10.ResumeLayout(false);
 			this.panel10.PerformLayout();
-			this.panel11.ResumeLayout(false);
-			this.panel11.PerformLayout();
-			this.panel12.ResumeLayout(false);
-			this.panel12.PerformLayout();
-			this.panel13.ResumeLayout(false);
-			this.panel13.PerformLayout();
 			this.ResumeLayout(false);
 
 		}
@@ -1230,6 +1260,7 @@
 		private System.Windows.Forms.Panel panel12;
 		private System.Windows.Forms.Panel panel11;
 		private System.Windows.Forms.Panel panel10;
+		private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
 	}
 }
 
