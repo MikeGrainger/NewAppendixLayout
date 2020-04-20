@@ -32,6 +32,8 @@
 			this.tabControl1 = new System.Windows.Forms.TabControl();
 			this.tabPage1 = new System.Windows.Forms.TabPage();
 			this.panel6 = new System.Windows.Forms.Panel();
+			this.label29 = new System.Windows.Forms.Label();
+			this.label25 = new System.Windows.Forms.Label();
 			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.comboBox1 = new System.Windows.Forms.ComboBox();
 			this.label2 = new System.Windows.Forms.Label();
@@ -44,9 +46,17 @@
 			this.button1 = new System.Windows.Forms.Button();
 			this.label4 = new System.Windows.Forms.Label();
 			this.tabPage2 = new System.Windows.Forms.TabPage();
-			this.panel5 = new System.Windows.Forms.Panel();
-			this.label14 = new System.Windows.Forms.Label();
-			this.textBox11 = new System.Windows.Forms.TextBox();
+			this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+			this.panel2 = new System.Windows.Forms.Panel();
+			this.label6 = new System.Windows.Forms.Label();
+			this.listBox2 = new System.Windows.Forms.ListBox();
+			this.label9 = new System.Windows.Forms.Label();
+			this.listBox3 = new System.Windows.Forms.ListBox();
+			this.panel1 = new System.Windows.Forms.Panel();
+			this.label8 = new System.Windows.Forms.Label();
+			this.label7 = new System.Windows.Forms.Label();
+			this.textBox5 = new System.Windows.Forms.TextBox();
+			this.textBox6 = new System.Windows.Forms.TextBox();
 			this.panel4 = new System.Windows.Forms.Panel();
 			this.label11 = new System.Windows.Forms.Label();
 			this.label13 = new System.Windows.Forms.Label();
@@ -59,16 +69,9 @@
 			this.textBox9 = new System.Windows.Forms.TextBox();
 			this.label15 = new System.Windows.Forms.Label();
 			this.listBox4 = new System.Windows.Forms.ListBox();
-			this.panel2 = new System.Windows.Forms.Panel();
-			this.label6 = new System.Windows.Forms.Label();
-			this.listBox2 = new System.Windows.Forms.ListBox();
-			this.label9 = new System.Windows.Forms.Label();
-			this.listBox3 = new System.Windows.Forms.ListBox();
-			this.panel1 = new System.Windows.Forms.Panel();
-			this.label8 = new System.Windows.Forms.Label();
-			this.label7 = new System.Windows.Forms.Label();
-			this.textBox5 = new System.Windows.Forms.TextBox();
-			this.textBox6 = new System.Windows.Forms.TextBox();
+			this.panel5 = new System.Windows.Forms.Panel();
+			this.label14 = new System.Windows.Forms.Label();
+			this.textBox11 = new System.Windows.Forms.TextBox();
 			this.tabPage3 = new System.Windows.Forms.TabPage();
 			this.panel9 = new System.Windows.Forms.Panel();
 			this.label21 = new System.Windows.Forms.Label();
@@ -119,15 +122,20 @@
 			this.textBox22 = new System.Windows.Forms.TextBox();
 			this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
 			this.button2 = new System.Windows.Forms.Button();
+			this.label36 = new System.Windows.Forms.Label();
+			this.label37 = new System.Windows.Forms.Label();
+			this.label38 = new System.Windows.Forms.Label();
+			this.label39 = new System.Windows.Forms.Label();
 			this.tabControl1.SuspendLayout();
 			this.tabPage1.SuspendLayout();
 			this.panel6.SuspendLayout();
 			this.tabPage2.SuspendLayout();
-			this.panel5.SuspendLayout();
-			this.panel4.SuspendLayout();
-			this.panel3.SuspendLayout();
+			this.flowLayoutPanel2.SuspendLayout();
 			this.panel2.SuspendLayout();
 			this.panel1.SuspendLayout();
+			this.panel4.SuspendLayout();
+			this.panel3.SuspendLayout();
+			this.panel5.SuspendLayout();
 			this.tabPage3.SuspendLayout();
 			this.panel9.SuspendLayout();
 			this.panel8.SuspendLayout();
@@ -151,19 +159,18 @@
 			this.tabControl1.Margin = new System.Windows.Forms.Padding(6);
 			this.tabControl1.Name = "tabControl1";
 			this.tabControl1.SelectedIndex = 0;
-			this.tabControl1.Size = new System.Drawing.Size(892, 500);
+			this.tabControl1.Size = new System.Drawing.Size(912, 500);
 			this.tabControl1.TabIndex = 0;
 			// 
 			// tabPage1
 			// 
-			this.tabPage1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage1.BackgroundImage")));
 			this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.tabPage1.Controls.Add(this.panel6);
 			this.tabPage1.Location = new System.Drawing.Point(4, 32);
 			this.tabPage1.Margin = new System.Windows.Forms.Padding(6);
 			this.tabPage1.Name = "tabPage1";
 			this.tabPage1.Padding = new System.Windows.Forms.Padding(6);
-			this.tabPage1.Size = new System.Drawing.Size(884, 464);
+			this.tabPage1.Size = new System.Drawing.Size(904, 464);
 			this.tabPage1.TabIndex = 0;
 			this.tabPage1.Text = "Refs:";
 			this.tabPage1.UseVisualStyleBackColor = true;
@@ -171,6 +178,12 @@
 			// panel6
 			// 
 			this.panel6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.panel6.Controls.Add(this.label38);
+			this.panel6.Controls.Add(this.label39);
+			this.panel6.Controls.Add(this.label36);
+			this.panel6.Controls.Add(this.label37);
+			this.panel6.Controls.Add(this.label29);
+			this.panel6.Controls.Add(this.label25);
 			this.panel6.Controls.Add(this.textBox1);
 			this.panel6.Controls.Add(this.comboBox1);
 			this.panel6.Controls.Add(this.label2);
@@ -184,21 +197,39 @@
 			this.panel6.Controls.Add(this.label4);
 			this.panel6.Location = new System.Drawing.Point(9, 9);
 			this.panel6.Name = "panel6";
-			this.panel6.Size = new System.Drawing.Size(687, 267);
+			this.panel6.Size = new System.Drawing.Size(759, 267);
 			this.panel6.TabIndex = 14;
+			// 
+			// label29
+			// 
+			this.label29.Location = new System.Drawing.Point(687, 71);
+			this.label29.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label29.Name = "label29";
+			this.label29.Size = new System.Drawing.Size(57, 23);
+			this.label29.TabIndex = 16;
+			this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// label25
+			// 
+			this.label25.Location = new System.Drawing.Point(655, 71);
+			this.label25.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label25.Name = "label25";
+			this.label25.Size = new System.Drawing.Size(33, 23);
+			this.label25.TabIndex = 15;
+			this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// textBox1
 			// 
 			this.textBox1.AccessibleDescription = "";
 			this.textBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
 			this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.textBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.textBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.textBox1.Location = new System.Drawing.Point(314, 15);
 			this.textBox1.Margin = new System.Windows.Forms.Padding(6);
-			this.textBox1.Multiline = true;
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(131, 30);
 			this.textBox1.TabIndex = 2;
+			this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_Keypress);
 			// 
 			// comboBox1
 			// 
@@ -250,9 +281,11 @@
 			// 
 			this.textBox3.Location = new System.Drawing.Point(314, 112);
 			this.textBox3.Margin = new System.Windows.Forms.Padding(6);
+			this.textBox3.MaxLength = 32;
 			this.textBox3.Name = "textBox3";
 			this.textBox3.Size = new System.Drawing.Size(338, 30);
 			this.textBox3.TabIndex = 8;
+			this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
 			// 
 			// label5
 			// 
@@ -269,9 +302,11 @@
 			// 
 			this.textBox2.Location = new System.Drawing.Point(314, 68);
 			this.textBox2.Margin = new System.Windows.Forms.Padding(6);
+			this.textBox2.MaxLength = 32;
 			this.textBox2.Name = "textBox2";
 			this.textBox2.Size = new System.Drawing.Size(338, 30);
 			this.textBox2.TabIndex = 5;
+			this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
 			// 
 			// textBox4
 			// 
@@ -285,12 +320,14 @@
 			// 
 			this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
 			this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.button1.Location = new System.Drawing.Point(457, 11);
 			this.button1.Margin = new System.Windows.Forms.Padding(6);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(34, 36);
 			this.button1.TabIndex = 1;
 			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.button1_Click);
 			// 
 			// label4
 			// 
@@ -306,46 +343,141 @@
 			// tabPage2
 			// 
 			this.tabPage2.BackColor = System.Drawing.Color.Silver;
-			this.tabPage2.Controls.Add(this.panel5);
-			this.tabPage2.Controls.Add(this.panel4);
-			this.tabPage2.Controls.Add(this.panel3);
-			this.tabPage2.Controls.Add(this.panel2);
-			this.tabPage2.Controls.Add(this.panel1);
+			this.tabPage2.Controls.Add(this.flowLayoutPanel2);
 			this.tabPage2.Location = new System.Drawing.Point(4, 32);
 			this.tabPage2.Margin = new System.Windows.Forms.Padding(6);
 			this.tabPage2.Name = "tabPage2";
 			this.tabPage2.Padding = new System.Windows.Forms.Padding(6);
-			this.tabPage2.Size = new System.Drawing.Size(884, 464);
+			this.tabPage2.Size = new System.Drawing.Size(904, 464);
 			this.tabPage2.TabIndex = 1;
 			this.tabPage2.Text = "Contacts:";
 			// 
-			// panel5
+			// flowLayoutPanel2
 			// 
-			this.panel5.Controls.Add(this.label14);
-			this.panel5.Controls.Add(this.textBox11);
-			this.panel5.Location = new System.Drawing.Point(9, 255);
-			this.panel5.Name = "panel5";
-			this.panel5.Size = new System.Drawing.Size(447, 59);
-			this.panel5.TabIndex = 51;
+			this.flowLayoutPanel2.Controls.Add(this.panel2);
+			this.flowLayoutPanel2.Controls.Add(this.panel1);
+			this.flowLayoutPanel2.Controls.Add(this.panel4);
+			this.flowLayoutPanel2.Controls.Add(this.panel3);
+			this.flowLayoutPanel2.Controls.Add(this.panel5);
+			this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.flowLayoutPanel2.Location = new System.Drawing.Point(6, 6);
+			this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+			this.flowLayoutPanel2.Size = new System.Drawing.Size(892, 452);
+			this.flowLayoutPanel2.TabIndex = 52;
 			// 
-			// label14
+			// panel2
 			// 
-			this.label14.AutoSize = true;
-			this.label14.Location = new System.Drawing.Point(6, 17);
-			this.label14.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-			this.label14.Name = "label14";
-			this.label14.Size = new System.Drawing.Size(286, 23);
-			this.label14.TabIndex = 42;
-			this.label14.Text = "Data Guardian (SIBP) and PID:";
-			this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.panel2.BackColor = System.Drawing.Color.DodgerBlue;
+			this.panel2.Controls.Add(this.label6);
+			this.panel2.Controls.Add(this.listBox2);
+			this.panel2.Controls.Add(this.label9);
+			this.panel2.Controls.Add(this.listBox3);
+			this.panel2.Location = new System.Drawing.Point(3, 3);
+			this.panel2.Name = "panel2";
+			this.panel2.Size = new System.Drawing.Size(294, 95);
+			this.panel2.TabIndex = 48;
 			// 
-			// textBox11
+			// label6
 			// 
-			this.textBox11.Location = new System.Drawing.Point(306, 14);
-			this.textBox11.Margin = new System.Windows.Forms.Padding(6);
-			this.textBox11.Name = "textBox11";
-			this.textBox11.Size = new System.Drawing.Size(131, 30);
-			this.textBox11.TabIndex = 44;
+			this.label6.AutoSize = true;
+			this.label6.Location = new System.Drawing.Point(6, 11);
+			this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(114, 23);
+			this.label6.TabIndex = 21;
+			this.label6.Text = "Directorate:";
+			this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// listBox2
+			// 
+			this.listBox2.FormattingEnabled = true;
+			this.listBox2.ItemHeight = 23;
+			this.listBox2.Items.AddRange(new object[] {
+            "ISBC",
+            "NMW",
+            "CCG",
+            "T&SC",
+            "C&A"});
+			this.listBox2.Location = new System.Drawing.Point(134, 11);
+			this.listBox2.Margin = new System.Windows.Forms.Padding(6);
+			this.listBox2.Name = "listBox2";
+			this.listBox2.Size = new System.Drawing.Size(130, 27);
+			this.listBox2.TabIndex = 23;
+			// 
+			// label9
+			// 
+			this.label9.AutoSize = true;
+			this.label9.Location = new System.Drawing.Point(47, 50);
+			this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(71, 23);
+			this.label9.TabIndex = 24;
+			this.label9.Text = "Group:";
+			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// listBox3
+			// 
+			this.listBox3.FormattingEnabled = true;
+			this.listBox3.ItemHeight = 23;
+			this.listBox3.Location = new System.Drawing.Point(132, 50);
+			this.listBox3.Margin = new System.Windows.Forms.Padding(6);
+			this.listBox3.Name = "listBox3";
+			this.listBox3.Size = new System.Drawing.Size(130, 27);
+			this.listBox3.TabIndex = 26;
+			// 
+			// panel1
+			// 
+			this.panel1.BackColor = System.Drawing.Color.Transparent;
+			this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+			this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.panel1.Controls.Add(this.label8);
+			this.panel1.Controls.Add(this.label7);
+			this.panel1.Controls.Add(this.textBox5);
+			this.panel1.Controls.Add(this.textBox6);
+			this.panel1.Location = new System.Drawing.Point(303, 3);
+			this.panel1.Name = "panel1";
+			this.panel1.Size = new System.Drawing.Size(543, 97);
+			this.panel1.TabIndex = 47;
+			// 
+			// label8
+			// 
+			this.label8.AutoSize = true;
+			this.label8.ForeColor = System.Drawing.Color.White;
+			this.label8.Location = new System.Drawing.Point(6, 13);
+			this.label8.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(265, 23);
+			this.label8.TabIndex = 15;
+			this.label8.Text = "BDApp Governing DL/Group:";
+			this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// label7
+			// 
+			this.label7.AutoSize = true;
+			this.label7.ForeColor = System.Drawing.Color.White;
+			this.label7.Location = new System.Drawing.Point(60, 59);
+			this.label7.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(211, 23);
+			this.label7.TabIndex = 18;
+			this.label7.Text = "BDApp Admin Contact:";
+			this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// textBox5
+			// 
+			this.textBox5.Location = new System.Drawing.Point(283, 56);
+			this.textBox5.Margin = new System.Windows.Forms.Padding(6);
+			this.textBox5.Name = "textBox5";
+			this.textBox5.Size = new System.Drawing.Size(240, 30);
+			this.textBox5.TabIndex = 20;
+			// 
+			// textBox6
+			// 
+			this.textBox6.Location = new System.Drawing.Point(283, 10);
+			this.textBox6.Margin = new System.Windows.Forms.Padding(6);
+			this.textBox6.Name = "textBox6";
+			this.textBox6.Size = new System.Drawing.Size(240, 30);
+			this.textBox6.TabIndex = 17;
 			// 
 			// panel4
 			// 
@@ -355,7 +487,7 @@
 			this.panel4.Controls.Add(this.textBox8);
 			this.panel4.Controls.Add(this.textBox7);
 			this.panel4.Controls.Add(this.label10);
-			this.panel4.Location = new System.Drawing.Point(9, 112);
+			this.panel4.Location = new System.Drawing.Point(3, 106);
 			this.panel4.Name = "panel4";
 			this.panel4.Size = new System.Drawing.Size(404, 137);
 			this.panel4.TabIndex = 50;
@@ -423,7 +555,7 @@
 			this.panel3.Controls.Add(this.textBox9);
 			this.panel3.Controls.Add(this.label15);
 			this.panel3.Controls.Add(this.listBox4);
-			this.panel3.Location = new System.Drawing.Point(419, 112);
+			this.panel3.Location = new System.Drawing.Point(413, 106);
 			this.panel3.Name = "panel3";
 			this.panel3.Size = new System.Drawing.Size(441, 100);
 			this.panel3.TabIndex = 49;
@@ -468,119 +600,33 @@
 			this.listBox4.Size = new System.Drawing.Size(130, 27);
 			this.listBox4.TabIndex = 46;
 			// 
-			// panel2
+			// panel5
 			// 
-			this.panel2.BackColor = System.Drawing.Color.DodgerBlue;
-			this.panel2.Controls.Add(this.label6);
-			this.panel2.Controls.Add(this.listBox2);
-			this.panel2.Controls.Add(this.label9);
-			this.panel2.Controls.Add(this.listBox3);
-			this.panel2.Location = new System.Drawing.Point(9, 9);
-			this.panel2.Name = "panel2";
-			this.panel2.Size = new System.Drawing.Size(294, 95);
-			this.panel2.TabIndex = 48;
+			this.panel5.Controls.Add(this.label14);
+			this.panel5.Controls.Add(this.textBox11);
+			this.panel5.Location = new System.Drawing.Point(3, 249);
+			this.panel5.Name = "panel5";
+			this.panel5.Size = new System.Drawing.Size(447, 59);
+			this.panel5.TabIndex = 51;
 			// 
-			// label6
+			// label14
 			// 
-			this.label6.AutoSize = true;
-			this.label6.Location = new System.Drawing.Point(6, 11);
-			this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(114, 23);
-			this.label6.TabIndex = 21;
-			this.label6.Text = "Directorate:";
-			this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.label14.AutoSize = true;
+			this.label14.Location = new System.Drawing.Point(6, 17);
+			this.label14.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label14.Name = "label14";
+			this.label14.Size = new System.Drawing.Size(286, 23);
+			this.label14.TabIndex = 42;
+			this.label14.Text = "Data Guardian (SIBP) and PID:";
+			this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
-			// listBox2
+			// textBox11
 			// 
-			this.listBox2.FormattingEnabled = true;
-			this.listBox2.ItemHeight = 23;
-			this.listBox2.Items.AddRange(new object[] {
-            "ISBC",
-            "NMW",
-            "CCG",
-            "T&SC",
-            "C&A"});
-			this.listBox2.Location = new System.Drawing.Point(134, 11);
-			this.listBox2.Margin = new System.Windows.Forms.Padding(6);
-			this.listBox2.Name = "listBox2";
-			this.listBox2.Size = new System.Drawing.Size(130, 27);
-			this.listBox2.TabIndex = 23;
-			// 
-			// label9
-			// 
-			this.label9.AutoSize = true;
-			this.label9.Location = new System.Drawing.Point(47, 50);
-			this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(71, 23);
-			this.label9.TabIndex = 24;
-			this.label9.Text = "Group:";
-			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// listBox3
-			// 
-			this.listBox3.FormattingEnabled = true;
-			this.listBox3.ItemHeight = 23;
-			this.listBox3.Location = new System.Drawing.Point(132, 50);
-			this.listBox3.Margin = new System.Windows.Forms.Padding(6);
-			this.listBox3.Name = "listBox3";
-			this.listBox3.Size = new System.Drawing.Size(130, 27);
-			this.listBox3.TabIndex = 26;
-			// 
-			// panel1
-			// 
-			this.panel1.BackColor = System.Drawing.Color.Transparent;
-			this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-			this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.panel1.Controls.Add(this.label8);
-			this.panel1.Controls.Add(this.label7);
-			this.panel1.Controls.Add(this.textBox5);
-			this.panel1.Controls.Add(this.textBox6);
-			this.panel1.Location = new System.Drawing.Point(317, 9);
-			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(543, 97);
-			this.panel1.TabIndex = 47;
-			// 
-			// label8
-			// 
-			this.label8.AutoSize = true;
-			this.label8.ForeColor = System.Drawing.Color.White;
-			this.label8.Location = new System.Drawing.Point(6, 13);
-			this.label8.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(265, 23);
-			this.label8.TabIndex = 15;
-			this.label8.Text = "BDApp Governing DL/Group:";
-			this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// label7
-			// 
-			this.label7.AutoSize = true;
-			this.label7.ForeColor = System.Drawing.Color.White;
-			this.label7.Location = new System.Drawing.Point(60, 59);
-			this.label7.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(211, 23);
-			this.label7.TabIndex = 18;
-			this.label7.Text = "BDApp Admin Contact:";
-			this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// textBox5
-			// 
-			this.textBox5.Location = new System.Drawing.Point(283, 56);
-			this.textBox5.Margin = new System.Windows.Forms.Padding(6);
-			this.textBox5.Name = "textBox5";
-			this.textBox5.Size = new System.Drawing.Size(240, 30);
-			this.textBox5.TabIndex = 20;
-			// 
-			// textBox6
-			// 
-			this.textBox6.Location = new System.Drawing.Point(283, 10);
-			this.textBox6.Margin = new System.Windows.Forms.Padding(6);
-			this.textBox6.Name = "textBox6";
-			this.textBox6.Size = new System.Drawing.Size(240, 30);
-			this.textBox6.TabIndex = 17;
+			this.textBox11.Location = new System.Drawing.Point(306, 14);
+			this.textBox11.Margin = new System.Windows.Forms.Padding(6);
+			this.textBox11.Name = "textBox11";
+			this.textBox11.Size = new System.Drawing.Size(131, 30);
+			this.textBox11.TabIndex = 44;
 			// 
 			// tabPage3
 			// 
@@ -591,7 +637,7 @@
 			this.tabPage3.Margin = new System.Windows.Forms.Padding(6);
 			this.tabPage3.Name = "tabPage3";
 			this.tabPage3.Padding = new System.Windows.Forms.Padding(6);
-			this.tabPage3.Size = new System.Drawing.Size(884, 464);
+			this.tabPage3.Size = new System.Drawing.Size(904, 464);
 			this.tabPage3.TabIndex = 2;
 			this.tabPage3.Text = "Locations:";
 			this.tabPage3.UseVisualStyleBackColor = true;
@@ -647,6 +693,7 @@
 			// 
 			// panel8
 			// 
+			this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.panel8.Controls.Add(this.label19);
 			this.panel8.Controls.Add(this.textBox14);
 			this.panel8.Controls.Add(this.label18);
@@ -699,6 +746,7 @@
 			this.panel7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+			this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.panel7.Controls.Add(this.label17);
 			this.panel7.Controls.Add(this.textBox13);
 			this.panel7.Controls.Add(this.textBox18);
@@ -756,7 +804,7 @@
 			this.tabPage4.Margin = new System.Windows.Forms.Padding(6);
 			this.tabPage4.Name = "tabPage4";
 			this.tabPage4.Padding = new System.Windows.Forms.Padding(6);
-			this.tabPage4.Size = new System.Drawing.Size(884, 464);
+			this.tabPage4.Size = new System.Drawing.Size(904, 464);
 			this.tabPage4.TabIndex = 3;
 			this.tabPage4.Text = "Governance:";
 			this.tabPage4.UseVisualStyleBackColor = true;
@@ -937,7 +985,7 @@
 			this.tabPage5.Margin = new System.Windows.Forms.Padding(6);
 			this.tabPage5.Name = "tabPage5";
 			this.tabPage5.Padding = new System.Windows.Forms.Padding(6);
-			this.tabPage5.Size = new System.Drawing.Size(884, 464);
+			this.tabPage5.Size = new System.Drawing.Size(904, 464);
 			this.tabPage5.TabIndex = 4;
 			this.tabPage5.Text = "Info:";
 			this.tabPage5.UseVisualStyleBackColor = true;
@@ -1115,13 +1163,49 @@
 			this.button2.UseVisualStyleBackColor = true;
 			this.button2.Click += new System.EventHandler(this.button2_Click);
 			// 
+			// label36
+			// 
+			this.label36.Location = new System.Drawing.Point(687, 115);
+			this.label36.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label36.Name = "label36";
+			this.label36.Size = new System.Drawing.Size(57, 23);
+			this.label36.TabIndex = 18;
+			this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// label37
+			// 
+			this.label37.Location = new System.Drawing.Point(655, 119);
+			this.label37.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label37.Name = "label37";
+			this.label37.Size = new System.Drawing.Size(33, 23);
+			this.label37.TabIndex = 17;
+			this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// label38
+			// 
+			this.label38.Location = new System.Drawing.Point(687, 168);
+			this.label38.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label38.Name = "label38";
+			this.label38.Size = new System.Drawing.Size(57, 23);
+			this.label38.TabIndex = 18;
+			this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// label39
+			// 
+			this.label39.Location = new System.Drawing.Point(655, 167);
+			this.label39.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+			this.label39.Name = "label39";
+			this.label39.Size = new System.Drawing.Size(33, 23);
+			this.label39.TabIndex = 17;
+			this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
 			// APPendix
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.ClientSize = new System.Drawing.Size(923, 582);
+			this.ClientSize = new System.Drawing.Size(933, 584);
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.tabControl1);
 			this.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1130,22 +1214,22 @@
 			this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "APPendix";
-			this.Load += new System.EventHandler(this.APPendix_Load);
 			this.tabControl1.ResumeLayout(false);
 			this.tabPage1.ResumeLayout(false);
 			this.panel6.ResumeLayout(false);
 			this.panel6.PerformLayout();
 			this.tabPage2.ResumeLayout(false);
-			this.panel5.ResumeLayout(false);
-			this.panel5.PerformLayout();
-			this.panel4.ResumeLayout(false);
-			this.panel4.PerformLayout();
-			this.panel3.ResumeLayout(false);
-			this.panel3.PerformLayout();
+			this.flowLayoutPanel2.ResumeLayout(false);
 			this.panel2.ResumeLayout(false);
 			this.panel2.PerformLayout();
 			this.panel1.ResumeLayout(false);
 			this.panel1.PerformLayout();
+			this.panel4.ResumeLayout(false);
+			this.panel4.PerformLayout();
+			this.panel3.ResumeLayout(false);
+			this.panel3.PerformLayout();
+			this.panel5.ResumeLayout(false);
+			this.panel5.PerformLayout();
 			this.tabPage3.ResumeLayout(false);
 			this.panel9.ResumeLayout(false);
 			this.panel9.PerformLayout();
@@ -1261,6 +1345,13 @@
 		private System.Windows.Forms.Panel panel11;
 		private System.Windows.Forms.Panel panel10;
 		private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+		private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+		private System.Windows.Forms.Label label25;
+		private System.Windows.Forms.Label label29;
+		private System.Windows.Forms.Label label38;
+		private System.Windows.Forms.Label label39;
+		private System.Windows.Forms.Label label36;
+		private System.Windows.Forms.Label label37;
 	}
 }
 
