@@ -130,6 +130,10 @@
 			this.button3 = new System.Windows.Forms.Button();
 			this.label40 = new System.Windows.Forms.Label();
 			this.button4 = new System.Windows.Forms.Button();
+			this.listBox1 = new System.Windows.Forms.ListBox();
+			this.radioButton1 = new System.Windows.Forms.RadioButton();
+			this.radioButton2 = new System.Windows.Forms.RadioButton();
+			this.radioButton3 = new System.Windows.Forms.RadioButton();
 			this.tabControl1.SuspendLayout();
 			this.tabPage1.SuspendLayout();
 			this.panel6.SuspendLayout();
@@ -182,6 +186,10 @@
 			// panel6
 			// 
 			this.panel6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.panel6.Controls.Add(this.radioButton3);
+			this.panel6.Controls.Add(this.radioButton2);
+			this.panel6.Controls.Add(this.radioButton1);
+			this.panel6.Controls.Add(this.listBox1);
 			this.panel6.Controls.Add(this.label38);
 			this.panel6.Controls.Add(this.label39);
 			this.panel6.Controls.Add(this.label36);
@@ -201,7 +209,7 @@
 			this.panel6.Controls.Add(this.label4);
 			this.panel6.Location = new System.Drawing.Point(9, 9);
 			this.panel6.Name = "panel6";
-			this.panel6.Size = new System.Drawing.Size(759, 267);
+			this.panel6.Size = new System.Drawing.Size(759, 361);
 			this.panel6.TabIndex = 14;
 			// 
 			// label38
@@ -1195,7 +1203,7 @@
 			// button2
 			// 
 			this.button2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.button2.Location = new System.Drawing.Point(764, 533);
+			this.button2.Location = new System.Drawing.Point(784, 503);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(139, 37);
 			this.button2.TabIndex = 1;
@@ -1211,7 +1219,7 @@
             "Live",
             "To Be Deleted",
             "AN Other"});
-			this.comboBox2.Location = new System.Drawing.Point(190, 537);
+			this.comboBox2.Location = new System.Drawing.Point(190, 507);
 			this.comboBox2.Name = "comboBox2";
 			this.comboBox2.Size = new System.Drawing.Size(119, 31);
 			this.comboBox2.TabIndex = 14;
@@ -1219,9 +1227,9 @@
 			// button3
 			// 
 			this.button3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.button3.Location = new System.Drawing.Point(550, 533);
+			this.button3.Location = new System.Drawing.Point(460, 506);
 			this.button3.Name = "button3";
-			this.button3.Size = new System.Drawing.Size(139, 37);
+			this.button3.Size = new System.Drawing.Size(139, 31);
 			this.button3.TabIndex = 15;
 			this.button3.Text = "Refresh List";
 			this.button3.UseVisualStyleBackColor = true;
@@ -1229,7 +1237,7 @@
 			// label40
 			// 
 			this.label40.AutoSize = true;
-			this.label40.Location = new System.Drawing.Point(69, 540);
+			this.label40.Location = new System.Drawing.Point(69, 510);
 			this.label40.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
 			this.label40.Name = "label40";
 			this.label40.Size = new System.Drawing.Size(112, 23);
@@ -1240,12 +1248,54 @@
 			// button4
 			// 
 			this.button4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.button4.Location = new System.Drawing.Point(315, 533);
+			this.button4.Location = new System.Drawing.Point(315, 506);
 			this.button4.Name = "button4";
-			this.button4.Size = new System.Drawing.Size(139, 37);
+			this.button4.Size = new System.Drawing.Size(139, 31);
 			this.button4.TabIndex = 17;
 			this.button4.Text = "Select";
 			this.button4.UseVisualStyleBackColor = true;
+			// 
+			// listBox1
+			// 
+			this.listBox1.FormattingEnabled = true;
+			this.listBox1.ItemHeight = 23;
+			this.listBox1.Location = new System.Drawing.Point(314, 256);
+			this.listBox1.Name = "listBox1";
+			this.listBox1.Size = new System.Drawing.Size(338, 27);
+			this.listBox1.TabIndex = 19;
+			// 
+			// radioButton1
+			// 
+			this.radioButton1.AutoSize = true;
+			this.radioButton1.Location = new System.Drawing.Point(344, 300);
+			this.radioButton1.Name = "radioButton1";
+			this.radioButton1.Size = new System.Drawing.Size(66, 27);
+			this.radioButton1.TabIndex = 20;
+			this.radioButton1.TabStop = true;
+			this.radioButton1.Text = "Live";
+			this.radioButton1.UseVisualStyleBackColor = true;
+			// 
+			// radioButton2
+			// 
+			this.radioButton2.AutoSize = true;
+			this.radioButton2.Location = new System.Drawing.Point(432, 300);
+			this.radioButton2.Name = "radioButton2";
+			this.radioButton2.Size = new System.Drawing.Size(92, 27);
+			this.radioButton2.TabIndex = 21;
+			this.radioButton2.TabStop = true;
+			this.radioButton2.Text = "Closed";
+			this.radioButton2.UseVisualStyleBackColor = true;
+			// 
+			// radioButton3
+			// 
+			this.radioButton3.AutoSize = true;
+			this.radioButton3.Location = new System.Drawing.Point(530, 300);
+			this.radioButton3.Name = "radioButton3";
+			this.radioButton3.Size = new System.Drawing.Size(106, 27);
+			this.radioButton3.TabIndex = 22;
+			this.radioButton3.TabStop = true;
+			this.radioButton3.Text = "Archived";
+			this.radioButton3.UseVisualStyleBackColor = true;
 			// 
 			// APPendix
 			// 
@@ -1253,7 +1303,7 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.ClientSize = new System.Drawing.Size(933, 584);
+			this.ClientSize = new System.Drawing.Size(945, 553);
 			this.Controls.Add(this.button4);
 			this.Controls.Add(this.label40);
 			this.Controls.Add(this.button3);
@@ -1409,6 +1459,10 @@
 		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.Label label40;
 		private System.Windows.Forms.Button button4;
+		private System.Windows.Forms.RadioButton radioButton3;
+		private System.Windows.Forms.RadioButton radioButton2;
+		private System.Windows.Forms.RadioButton radioButton1;
+		private System.Windows.Forms.ListBox listBox1;
 	}
 }
 
