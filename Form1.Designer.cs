@@ -32,6 +32,10 @@
 			this.tabControl1 = new System.Windows.Forms.TabControl();
 			this.tabPage1 = new System.Windows.Forms.TabPage();
 			this.panel6 = new System.Windows.Forms.Panel();
+			this.radioButton3 = new System.Windows.Forms.RadioButton();
+			this.radioButton2 = new System.Windows.Forms.RadioButton();
+			this.radioButton1 = new System.Windows.Forms.RadioButton();
+			this.listBox1 = new System.Windows.Forms.ListBox();
 			this.label38 = new System.Windows.Forms.Label();
 			this.label39 = new System.Windows.Forms.Label();
 			this.label36 = new System.Windows.Forms.Label();
@@ -130,10 +134,6 @@
 			this.button3 = new System.Windows.Forms.Button();
 			this.label40 = new System.Windows.Forms.Label();
 			this.button4 = new System.Windows.Forms.Button();
-			this.listBox1 = new System.Windows.Forms.ListBox();
-			this.radioButton1 = new System.Windows.Forms.RadioButton();
-			this.radioButton2 = new System.Windows.Forms.RadioButton();
-			this.radioButton3 = new System.Windows.Forms.RadioButton();
 			this.tabControl1.SuspendLayout();
 			this.tabPage1.SuspendLayout();
 			this.panel6.SuspendLayout();
@@ -211,6 +211,48 @@
 			this.panel6.Name = "panel6";
 			this.panel6.Size = new System.Drawing.Size(759, 361);
 			this.panel6.TabIndex = 14;
+			// 
+			// radioButton3
+			// 
+			this.radioButton3.AutoSize = true;
+			this.radioButton3.Location = new System.Drawing.Point(530, 300);
+			this.radioButton3.Name = "radioButton3";
+			this.radioButton3.Size = new System.Drawing.Size(106, 27);
+			this.radioButton3.TabIndex = 22;
+			this.radioButton3.TabStop = true;
+			this.radioButton3.Text = "Archived";
+			this.radioButton3.UseVisualStyleBackColor = true;
+			// 
+			// radioButton2
+			// 
+			this.radioButton2.AutoSize = true;
+			this.radioButton2.Location = new System.Drawing.Point(432, 300);
+			this.radioButton2.Name = "radioButton2";
+			this.radioButton2.Size = new System.Drawing.Size(92, 27);
+			this.radioButton2.TabIndex = 21;
+			this.radioButton2.TabStop = true;
+			this.radioButton2.Text = "Closed";
+			this.radioButton2.UseVisualStyleBackColor = true;
+			// 
+			// radioButton1
+			// 
+			this.radioButton1.AutoSize = true;
+			this.radioButton1.Location = new System.Drawing.Point(344, 300);
+			this.radioButton1.Name = "radioButton1";
+			this.radioButton1.Size = new System.Drawing.Size(66, 27);
+			this.radioButton1.TabIndex = 20;
+			this.radioButton1.TabStop = true;
+			this.radioButton1.Text = "Live";
+			this.radioButton1.UseVisualStyleBackColor = true;
+			// 
+			// listBox1
+			// 
+			this.listBox1.FormattingEnabled = true;
+			this.listBox1.ItemHeight = 23;
+			this.listBox1.Location = new System.Drawing.Point(314, 256);
+			this.listBox1.Name = "listBox1";
+			this.listBox1.Size = new System.Drawing.Size(338, 27);
+			this.listBox1.TabIndex = 19;
 			// 
 			// label38
 			// 
@@ -291,6 +333,7 @@
 			this.comboBox1.Name = "comboBox1";
 			this.comboBox1.Size = new System.Drawing.Size(338, 31);
 			this.comboBox1.TabIndex = 13;
+			this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
 			// 
 			// label2
 			// 
@@ -396,7 +439,7 @@
 			this.tabPage2.Margin = new System.Windows.Forms.Padding(6);
 			this.tabPage2.Name = "tabPage2";
 			this.tabPage2.Padding = new System.Windows.Forms.Padding(6);
-			this.tabPage2.Size = new System.Drawing.Size(904, 464);
+			this.tabPage2.Size = new System.Drawing.Size(904, 431);
 			this.tabPage2.TabIndex = 1;
 			this.tabPage2.Text = "Contacts:";
 			// 
@@ -410,7 +453,7 @@
 			this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.flowLayoutPanel2.Location = new System.Drawing.Point(6, 6);
 			this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-			this.flowLayoutPanel2.Size = new System.Drawing.Size(892, 452);
+			this.flowLayoutPanel2.Size = new System.Drawing.Size(892, 419);
 			this.flowLayoutPanel2.TabIndex = 52;
 			// 
 			// panel2
@@ -685,7 +728,7 @@
 			this.tabPage3.Margin = new System.Windows.Forms.Padding(6);
 			this.tabPage3.Name = "tabPage3";
 			this.tabPage3.Padding = new System.Windows.Forms.Padding(6);
-			this.tabPage3.Size = new System.Drawing.Size(904, 464);
+			this.tabPage3.Size = new System.Drawing.Size(904, 431);
 			this.tabPage3.TabIndex = 2;
 			this.tabPage3.Text = "Locations:";
 			this.tabPage3.UseVisualStyleBackColor = true;
@@ -852,7 +895,7 @@
 			this.tabPage4.Margin = new System.Windows.Forms.Padding(6);
 			this.tabPage4.Name = "tabPage4";
 			this.tabPage4.Padding = new System.Windows.Forms.Padding(6);
-			this.tabPage4.Size = new System.Drawing.Size(904, 464);
+			this.tabPage4.Size = new System.Drawing.Size(904, 431);
 			this.tabPage4.TabIndex = 3;
 			this.tabPage4.Text = "Governance:";
 			this.tabPage4.UseVisualStyleBackColor = true;
@@ -1033,7 +1076,7 @@
 			this.tabPage5.Margin = new System.Windows.Forms.Padding(6);
 			this.tabPage5.Name = "tabPage5";
 			this.tabPage5.Padding = new System.Windows.Forms.Padding(6);
-			this.tabPage5.Size = new System.Drawing.Size(904, 464);
+			this.tabPage5.Size = new System.Drawing.Size(904, 431);
 			this.tabPage5.TabIndex = 4;
 			this.tabPage5.Text = "Info:";
 			this.tabPage5.UseVisualStyleBackColor = true;
@@ -1203,9 +1246,9 @@
 			// button2
 			// 
 			this.button2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.button2.Location = new System.Drawing.Point(784, 503);
+			this.button2.Location = new System.Drawing.Point(784, 506);
 			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(139, 37);
+			this.button2.Size = new System.Drawing.Size(139, 30);
 			this.button2.TabIndex = 1;
 			this.button2.Text = "Close";
 			this.button2.UseVisualStyleBackColor = true;
@@ -1254,48 +1297,7 @@
 			this.button4.TabIndex = 17;
 			this.button4.Text = "Select";
 			this.button4.UseVisualStyleBackColor = true;
-			// 
-			// listBox1
-			// 
-			this.listBox1.FormattingEnabled = true;
-			this.listBox1.ItemHeight = 23;
-			this.listBox1.Location = new System.Drawing.Point(314, 256);
-			this.listBox1.Name = "listBox1";
-			this.listBox1.Size = new System.Drawing.Size(338, 27);
-			this.listBox1.TabIndex = 19;
-			// 
-			// radioButton1
-			// 
-			this.radioButton1.AutoSize = true;
-			this.radioButton1.Location = new System.Drawing.Point(344, 300);
-			this.radioButton1.Name = "radioButton1";
-			this.radioButton1.Size = new System.Drawing.Size(66, 27);
-			this.radioButton1.TabIndex = 20;
-			this.radioButton1.TabStop = true;
-			this.radioButton1.Text = "Live";
-			this.radioButton1.UseVisualStyleBackColor = true;
-			// 
-			// radioButton2
-			// 
-			this.radioButton2.AutoSize = true;
-			this.radioButton2.Location = new System.Drawing.Point(432, 300);
-			this.radioButton2.Name = "radioButton2";
-			this.radioButton2.Size = new System.Drawing.Size(92, 27);
-			this.radioButton2.TabIndex = 21;
-			this.radioButton2.TabStop = true;
-			this.radioButton2.Text = "Closed";
-			this.radioButton2.UseVisualStyleBackColor = true;
-			// 
-			// radioButton3
-			// 
-			this.radioButton3.AutoSize = true;
-			this.radioButton3.Location = new System.Drawing.Point(530, 300);
-			this.radioButton3.Name = "radioButton3";
-			this.radioButton3.Size = new System.Drawing.Size(106, 27);
-			this.radioButton3.TabIndex = 22;
-			this.radioButton3.TabStop = true;
-			this.radioButton3.Text = "Archived";
-			this.radioButton3.UseVisualStyleBackColor = true;
+			this.button4.Click += new System.EventHandler(this.button4_Click);
 			// 
 			// APPendix
 			// 

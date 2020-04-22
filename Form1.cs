@@ -117,5 +117,19 @@ namespace NewAppendixLayout
 				label36.Text = "Good";
 			}
 		}
+
+		private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void button4_Click(object sender, EventArgs e)
+		{
+			using (var connection = MyConnection.getConnection())
+			{
+				connection.Open();
+				//do whatever you need
+			}
+		}
 	}
 }
