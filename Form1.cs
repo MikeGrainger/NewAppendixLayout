@@ -2,6 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
+using FakeItEasy;
 
 namespace NewAppendixLayout
 {
@@ -11,7 +12,6 @@ namespace NewAppendixLayout
 		{
 			InitializeComponent();
 			textBox1.ReadOnly = true;
-
 			textBox2.ReadOnly = true;
 			textBox3.ReadOnly = true;
 			textBox4.ReadOnly = true;
@@ -51,7 +51,6 @@ namespace NewAppendixLayout
 			{
 				e.Handled = true;
 			}
-
 		}
 
 		private void button1_Click(object sender, EventArgs e)
@@ -130,6 +129,25 @@ namespace NewAppendixLayout
 				label29.Text = "Good";
 				label29.ForeColor = Color.FromArgb(3, 145, 3);
 				label29.Font = new Font(label29.Font, FontStyle.Regular);
+			}
+			{
+				Regex rx = new Regex(@"^[a-zA-Z0-9_]+$", //allow letter, numbers and underscores
+				RegexOptions.Compiled | RegexOptions.IgnoreCase);
+
+				// Define a test string.
+				string text = textBox2.Text;
+
+				// Find matches.
+				MatchCollection matches = rx.Matches(text);
+
+				// Report on match.
+				{ if (rx.IsMatch(text))
+					textBox2.ForeColor = Color.FromArgb(0, 0, 0);
+					textBox2.Font = new Font(textBox2.Font, FontStyle.Regular);
+				else
+					textBox2.ForeColor = Color.FromArgb(255, 0, 0);
+					textBox2.Font = new Font(textBox2.Font, FontStyle.Bold);
+				}
 			}
 		}
 		private void textBox3_TextChanged(object sender, EventArgs e)
