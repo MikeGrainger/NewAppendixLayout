@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace NewAppendixLayout
 {
@@ -9,6 +11,7 @@ namespace NewAppendixLayout
 		{
 			InitializeComponent();
 			textBox1.ReadOnly = true;
+
 			textBox2.ReadOnly = true;
 			textBox3.ReadOnly = true;
 			textBox4.ReadOnly = true;
@@ -26,7 +29,6 @@ namespace NewAppendixLayout
 			{
 				e.Handled = true;
 			}
-			
 		}
 
 		private void textBox2_Keypress(object sender, KeyPressEventArgs e)
@@ -35,7 +37,6 @@ namespace NewAppendixLayout
 			{
 				e.Handled = true;
 			}
-
 		}
 		private void textBox3_Keypress(object sender, KeyPressEventArgs e)
 		{
@@ -43,7 +44,6 @@ namespace NewAppendixLayout
 			{
 				e.Handled = true;
 			}
-
 		}
 		private void textBox4_Keypress(object sender, KeyPressEventArgs e)
 		{
@@ -61,36 +61,53 @@ namespace NewAppendixLayout
 			
 			textBox2.ReadOnly = false;
 			label25.Text = textBox2.Text.Length.ToString();
-			if (textBox2.Text.Length >=32)
 			{
-				label29.Text = "Max";
-			}
-			if (textBox2.Text.Length < 32)
-			{
-				label29.Text = "Good";
+				label25.Text = textBox2.Text.Length.ToString();
+				if (textBox2.Text.Length >= 32)
+				{
+					label29.Text = "Max";
+					label29.ForeColor = Color.FromArgb(255, 0, 0);
+					label29.Font = new Font(label29.Font, FontStyle.Bold);
+				}
+				if (textBox2.Text.Length < 32)
+				{
+					label29.Text = "Close";
+					label29.ForeColor = Color.FromArgb(255, 174, 3);
+					label29.Font = new Font(label29.Font, FontStyle.Italic);
+				}
+				if (textBox2.Text.Length < 26)
+				{
+					label29.Text = "Good";
+					label29.ForeColor = Color.FromArgb(3, 145, 3);
+					label29.Font = new Font(label29.Font, FontStyle.Regular);
+				}
 			}
 
 			textBox3.ReadOnly = false;
-			label37.Text = textBox3.Text.Length.ToString();
-			if (textBox3.Text.Length >=32)
 			{
-				label36.Text = "Max";
-			}
-			if (textBox3.Text.Length < 32)
-			{
-				label36.Text = "Good";
+				label37.Text = textBox3.Text.Length.ToString();
+				if (textBox3.Text.Length >= 32)
+				{
+					label36.Text = "Max";
+					label36.ForeColor = Color.FromArgb(255, 0, 0);
+					label36.Font = new Font(label36.Font, FontStyle.Bold);
+				}
+				if (textBox3.Text.Length < 32)
+				{
+					label36.Text = "Close";
+					label36.ForeColor = Color.FromArgb(255, 174, 3);
+					label36.Font = new Font(label36.Font, FontStyle.Italic);
+				}
+				if (textBox3.Text.Length < 26)
+				{
+					label36.Text = "Good";
+					label36.ForeColor = Color.FromArgb(3, 145, 3);
+					label36.Font = new Font(label36.Font, FontStyle.Regular);
+				}
 			}
 
 			textBox4.ReadOnly = false;
-			//label39.Text = textBox4.Text.Length.ToString();
-			//if (textBox4.Text.Length >= 32)
-			//{
-			//	label38.Text = "Max";
-			//}
-			//if (textBox4.Text.Length < 32)
-			//{
-			//	label38.Text = "Good";
-			//}
+
 		}
 
 		private void textBox2_TextChanged(object sender, EventArgs e)
@@ -99,10 +116,20 @@ namespace NewAppendixLayout
 			if (textBox2.Text.Length >=32)
 			{
 				label29.Text = "Max";
+				label29.ForeColor = Color.FromArgb(255, 0, 0);
+				label29.Font = new Font(label29.Font, FontStyle.Bold);
 			}
-			if (textBox2.Text.Length <32)
+			if (textBox2.Text.Length < 32)
+			{
+				label29.Text = "Close";
+				label29.ForeColor = Color.FromArgb(255, 174, 3);
+				label29.Font = new Font(label29.Font, FontStyle.Italic);
+			}
+			if (textBox2.Text.Length <26)
 			{
 				label29.Text = "Good";
+				label29.ForeColor = Color.FromArgb(3, 145, 3);
+				label29.Font = new Font(label29.Font, FontStyle.Regular);
 			}
 		}
 		private void textBox3_TextChanged(object sender, EventArgs e)
@@ -111,24 +138,20 @@ namespace NewAppendixLayout
 			if (textBox3.Text.Length >= 32)
 			{
 				label36.Text = "Max";
+				label36.ForeColor = Color.FromArgb(255, 0, 0);
+				label36.Font = new Font(label36.Font, FontStyle.Bold);
 			}
 			if (textBox3.Text.Length < 32)
 			{
-				label36.Text = "Good";
+				label36.Text = "Close";
+				label36.ForeColor = Color.FromArgb(255, 174, 3);
+				label36.Font = new Font(label36.Font, FontStyle.Italic);
 			}
-		}
-
-		private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-		{
-
-		}
-
-		private void button4_Click(object sender, EventArgs e)
-		{
-			using (var connection = MyConnection.getConnection())
+			if (textBox3.Text.Length < 26)
 			{
-				connection.Open();
-				//do whatever you need
+				label36.Text = "Good";
+				label36.ForeColor = Color.FromArgb(3, 145, 3);
+				label36.Font = new Font(label36.Font, FontStyle.Regular);
 			}
 		}
 	}

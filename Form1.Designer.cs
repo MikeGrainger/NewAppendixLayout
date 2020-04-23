@@ -333,7 +333,6 @@
 			this.comboBox1.Name = "comboBox1";
 			this.comboBox1.Size = new System.Drawing.Size(338, 31);
 			this.comboBox1.TabIndex = 13;
-			this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
 			// 
 			// label2
 			// 
@@ -1297,7 +1296,6 @@
 			this.button4.TabIndex = 17;
 			this.button4.Text = "Select";
 			this.button4.UseVisualStyleBackColor = true;
-			this.button4.Click += new System.EventHandler(this.button4_Click);
 			// 
 			// APPendix
 			// 
